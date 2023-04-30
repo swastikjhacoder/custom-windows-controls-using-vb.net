@@ -1,0 +1,170 @@
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ResolveAssemblyReference.cache
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.dlgCorners.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseButton.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.eDropdownColorBlender.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.DropDownContainer.eDropDownContainer.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseBox.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseGroupBox.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eGroupBox.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.DropdownColorBlender.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eListControl.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eListControlItem.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eRatingBar.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.Resources.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapsePanel.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.PictureBox.ePictureBox.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.PictureBox.eProfilePic.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.frmVistaProgressBar.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.Appearance.frmAppearanceEditor.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.TextBox.eRichTextBox.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.TextBox.eTextBox.resources
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR Controls.vbproj.GenerateResource.Cache
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\bin\Debug\ESAR Controls.dll
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\bin\Debug\ESAR Controls.pdb
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\bin\Debug\ESAR Controls.xml
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\bin\Debug\NetSpell.SpellChecker.DLL
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\bin\Debug\office.dll
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\bin\Debug\Microsoft.Office.Interop.Word.xml
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\bin\Debug\office.xml
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR Controls.dll
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR Controls.xml
+D:\JOB\Live Projects\ESAR Controls\ESAR Controls\obj\Debug\ESAR Controls.pdb
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\bin\Debug\ESAR Controls.dll
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\bin\Debug\ESAR Controls.pdb
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\bin\Debug\ESAR Controls.xml
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\bin\Debug\NetSpell.SpellChecker.DLL
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\bin\Debug\office.dll
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\bin\Debug\Microsoft.Office.Interop.Word.xml
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\bin\Debug\office.xml
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ResolveAssemblyReference.cache
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.dlgCorners.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseButton.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.eDropdownColorBlender.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.DropDownContainer.eDropDownContainer.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseBox.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseGroupBox.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eGroupBox.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.DropdownColorBlender.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eListControl.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eListControlItem.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eRatingBar.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.Resources.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapsePanel.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.PictureBox.ePictureBox.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.PictureBox.eProfilePic.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.frmVistaProgressBar.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.Appearance.frmAppearanceEditor.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.TextBox.eRichTextBox.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.TextBox.eTextBox.resources
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR Controls.vbproj.GenerateResource.Cache
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR Controls.dll
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR Controls.xml
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR Controls.pdb
+D:\JOB\ESAR Infotech\ESAR Controls\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ComboBox.eComboBoxIcon.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ResolveAssemblyReference.cache
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.dlgCorners.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseButton.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.eDropdownColorBlender.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.DropDownContainer.eDropDownContainer.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ComboBox.eComboBoxIcon.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseBox.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseGroupBox.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eGroupBox.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.DropdownColorBlender.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eListControl.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eListControlItem.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eRatingBar.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.Resources.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapsePanel.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.PictureBox.ePictureBox.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.PictureBox.eProfilePic.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.frmVistaProgressBar.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.Appearance.frmAppearanceEditor.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.TextBox.eRichTextBox.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.TextBox.eTextBox.resources
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR Controls.vbproj.GenerateResource.Cache
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR Controls.dll
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR Controls.xml
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR Controls.pdb
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\ESAR Controls.dll
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\ESAR Controls.pdb
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\ESAR Controls.xml
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\NetSpell.SpellChecker.DLL
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\office.dll
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\Microsoft.Office.Interop.Word.xml
+D:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\office.xml
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\ESAR Controls.dll
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\ESAR Controls.pdb
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\ESAR Controls.xml
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\NetSpell.SpellChecker.DLL
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\Microsoft.Vbe.Interop.dll
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\office.dll
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\Microsoft.Office.Interop.Word.xml
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\office.xml
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ResolveAssemblyReference.cache
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.dlgCorners.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseButton.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.eDropdownColorBlender.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.DropDownContainer.eDropDownContainer.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ComboBox.eComboBoxIcon.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseBox.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseGroupBox.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eGroupBox.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.DropdownColorBlender.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eListControl.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eListControlItem.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eRatingBar.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.Resources.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapsePanel.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.PictureBox.ePictureBox.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.PictureBox.eProfilePic.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.frmVistaProgressBar.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.Appearance.frmAppearanceEditor.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.TextBox.eRichTextBox.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.TextBox.eTextBox.resources
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR Controls.vbproj.GenerateResource.Cache
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR Controls.dll
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR Controls.xml
+G:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR Controls.pdb
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\ESAR Controls.dll
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\ESAR Controls.pdb
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\ESAR Controls.xml
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\NetSpell.SpellChecker.DLL
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ResolveAssemblyReference.cache
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.dlgCorners.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseButton.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.eDropdownColorBlender.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.DropDownContainer.eDropDownContainer.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ComboBox.eComboBoxIcon.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseBox.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapseGroupBox.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eGroupBox.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.DropdownColorBlender.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eListControl.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eListControlItem.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ListControl.eRatingBar.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.Resources.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.GroupBox.eCollapsePanel.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.PictureBox.ePictureBox.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.PictureBox.eProfilePic.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.frmVistaProgressBar.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.Appearance.frmAppearanceEditor.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.TextBox.eRichTextBox.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.TextBox.eTextBox.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR Controls.vbproj.GenerateResource.Cache
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR Controls.dll
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR Controls.xml
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR Controls.pdb
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.UIControls.Button.eDDControl.resources
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\bin\Debug\rtaGlassEffectsLib.dll
+F:\JOB\ESAR Infotech\ESAR Controls 2008\ESAR Controls\obj\Debug\ESAR_Controls.eContactDetails.resources

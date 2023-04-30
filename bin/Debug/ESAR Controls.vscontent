@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSContent xmlns="http://schemas.microsoft.com/developer/vscontent/2005">
+  <Content>
+    <FileName>ESAR Controls.dll</FileName>
+    <DisplayName>ESAR Controls</DisplayName>
+    <Description>Controls are created for ESAR Infotech.</Description>
+    <FileContentType>Toolbox Control</FileContentType>
+    <ContentVersion>2.0</ContentVersion>
+  </Content>
+</VSContent>

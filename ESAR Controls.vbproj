@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E555FC78-9C5B-4FAD-B006-453550FEC18D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ESAR_Controls</RootNamespace>
+    <AssemblyName>ESAR Controls</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ESAR Controls.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ESAR Controls.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="NetSpell.SpellChecker, Version=2.1.7.41329, Culture=neutral, PublicKeyToken=318b389f0db66e46">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ESAR Infotech\Umbrella\bin\Debug\NetSpell.SpellChecker.DLL</HintPath>
+    </Reference>
+    <Reference Include="rtaGlassEffectsLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Docere\Docere\bin\Debug\rtaGlassEffectsLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Button\dlgCorners.designer.vb">
+      <DependentUpon>dlgCorners.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Button\dlgCorners.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Button\eArrowButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Button\eButton.Designer.vb">
+      <DependentUpon>eButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Button\eButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Button\eButtonDesigner.vb" />
+    <Compile Include="Button\eDDControl.Designer.vb">
+      <DependentUpon>eDDControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Button\eDDControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Button\eSplitGlassButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contact Info\cTextChange.vb" />
+    <Compile Include="Contact Info\eContactDetails.Designer.vb">
+      <DependentUpon>eContactDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contact Info\eContactDetails.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataGridView\eDataGridViewColumnSelector.vb" />
+    <Compile Include="DataGridView\eDataGridViewWithPaging.Designer.vb">
+      <DependentUpon>eDataGridViewWithPaging.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridView\eDataGridViewWithPaging.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataGridView\eTimeControl.Designer.vb">
+      <DependentUpon>eTimeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridView\eTimeControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GlassEffect\eGlassEffect.vb" />
+    <Compile Include="GroupBox\eCollapseButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Button\eCommandlink.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Button\eDropdownColorBlender.designer.vb">
+      <DependentUpon>eDropdownColorBlender.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Button\eDropdownColorBlender.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Button\eGlassButton.Designer.vb">
+      <DependentUpon>eGlassButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Button\eGlassButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Button\eSplitButton.Designer.vb">
+      <DependentUpon>eSplitButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Button\eSplitButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Button\VistaConstants.vb" />
+    <Compile Include="ComboBox\ComboBoxDataGridView\eComboBoxDataGridView.designer.vb">
+      <DependentUpon>eComboBoxDataGridView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBox\ComboBoxDataGridView\eComboBoxDataGridView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComboBox\ComboBoxDataGridView\eComboBoxDataGridViewCell.vb" />
+    <Compile Include="ComboBox\ComboBoxDataGridView\eComboBoxDataGridViewColumn.vb" />
+    <Compile Include="ComboBox\ComboBoxDataGridView\eComboBoxDataGridViewEditingControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComboBox\ComboBoxDataGridView\ToolStripDataGridView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComboBox\DropDownContainer\eDropDownContainer.Designer.vb">
+      <DependentUpon>eDropDownContainer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBox\DropDownContainer\eDropDownContainer.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComboBox\eComboBoxDateTime.Designer.vb">
+      <DependentUpon>eComboBoxDateTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBox\eComboBoxDateTime.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComboBox\eComboBoxIcon.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComboBox\eComboBoxMultiColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridView\eCalenderColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridView\eCurrencyColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridView\eCustomDataGridView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridView\eDataGridViewSummary.Designer.vb">
+      <DependentUpon>eDataGridViewSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridView\eDataGridViewSummary.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridView\eNumericTextBoxColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridView\eOfficeColorTable.vb" />
+    <Compile Include="DataGridView\eProgressColumn.vb" />
+    <Compile Include="DataGridView\eRatingColumn.vb" />
+    <Compile Include="DataGridView\eReadOnlyTextBox.Designer.vb">
+      <DependentUpon>eReadOnlyTextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridView\eReadOnlyTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridView\eSummaryControlContainer.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridView\Renderer.vb" />
+    <Compile Include="DataGridView\TextHelper.vb" />
+    <Compile Include="FadeGradientForm\eFadeGradientForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChangedControl\eFormChangedComponent.Designer.vb">
+      <DependentUpon>eFormChangedComponent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormChangedControl\eFormChangedComponent.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormDocker\FormDocker.vb" />
+    <Compile Include="GroupBox\eCheckGroupBox.Designer.vb">
+      <DependentUpon>eCheckGroupBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GroupBox\eCheckGroupBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GroupBox\eCollapseBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GroupBox\eCollapseGroupBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GroupBox\eContants.vb" />
+    <Compile Include="GroupBox\eGroupBox.Designer.vb">
+      <DependentUpon>eGroupBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GroupBox\eGroupBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\eRadioButtonPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GroupBox\eRadioGroupBox.Designer.vb">
+      <DependentUpon>eRadioGroupBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GroupBox\eRadioGroupBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Label\DropdownColorBlender.designer.vb">
+      <DependentUpon>DropdownColorBlender.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Label\DropdownColorBlender.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Label\eLabel.Designer.vb">
+      <DependentUpon>eLabel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Label\eLabel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Label\eLabelVirtical.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListControl\eColorSchemes.vb" />
+    <Compile Include="ListControl\eListControl.designer.vb">
+      <DependentUpon>eListControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListControl\eListControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListControl\eListControlItem.Designer.vb">
+      <DependentUpon>eListControlItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListControl\eListControlItem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListControl\eRatingBar.Designer.vb">
+      <DependentUpon>eRatingBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListControl\eRatingBar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListView\eListView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListView\eNativeMethods.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Panel\eCollapsePanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Panel\eGradientPanel.Designer.vb">
+      <DependentUpon>eGradientPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\eGradientPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Panel\eRoundedPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PictureBox\ePictureBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PictureBox\eProfilePic.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\AnimatedProgressBar\Components\eAniEasyProgressTaskManager.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\AnimatedProgressBar\Components\eFloatWindowAlphaMaker.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\AnimatedProgressBar\Components\IAlphaMaker.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\AnimatedEasyProgressControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\ColorizerProgress.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\CustomControlsLogic.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\DrawDigitalHelper.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\DropDownProgress.Designer.vb">
+      <DependentUpon>DropDownProgress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\DropDownProgress.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\EasyProgressBarColumn.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\EasyProgressBarSplashForm.Designer.vb">
+      <DependentUpon>EasyProgressBarSplashForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\EasyProgressBarSplashForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\eEasyProgressBar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\GradientBackground.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\GradientDigitBox.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\GradientHover.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\GradientProgress.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\IFloatWindowBase.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\IProgressBar.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\IProgressColorizer.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\ToolStripAnimatedEasyProgressBarItem.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\AnimatedProgressBar\Controls\ToolStripEasyProgressBarItem.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\AnimatedProgressBar\Win32\Enum.vb" />
+    <Compile Include="ProgressBar\AnimatedProgressBar\Win32\User32.vb" />
+    <Compile Include="ProgressBar\eVistaProgressBar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\eXpProgressBar.Designer.vb">
+      <DependentUpon>eXpProgressBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBar\eXpProgressBar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\frmVistaProgressBar.Designer.vb">
+      <DependentUpon>frmVistaProgressBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBar\frmVistaProgressBar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Strips\Appearance\CustomAppearancePropertyEditor.vb" />
+    <Compile Include="Strips\Appearance\eAppearanceControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Strips\Appearance\frmAppearanceEditor.Designer.vb">
+      <DependentUpon>frmAppearanceEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Strips\Appearance\frmAppearanceEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Strips\eContextMenuStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Strips\eMenuStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Strips\eStatusStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Strips\eToolStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControl\eTabControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControl\eTabControlEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControl\eTabStrip\BaseClass\BaseStyledPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControl\eTabStrip\Control\eTabStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControl\eTabStrip\Control\eTabStripCloseButton.vb" />
+    <Compile Include="TabControl\eTabStrip\Control\eTabStripItem.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControl\eTabStrip\Control\eTabStripItemCollection.vb" />
+    <Compile Include="TabControl\eTabStrip\Control\eTabStripMenuGlyph.vb" />
+    <Compile Include="TabControl\eTabStrip\Deligates.vb" />
+    <Compile Include="TabControl\eTabStrip\Design\eTabStripDesigner.vb" />
+    <Compile Include="TabControl\eTabStrip\Design\eTabStripItemDesigner..vb" />
+    <Compile Include="TabControl\eTabStrip\Design\ICaptionSupport.vb" />
+    <Compile Include="TabControl\eTabStrip\Enums.vb" />
+    <Compile Include="TabControl\eTabStrip\Helper\CollectionWithEvents.vb" />
+    <Compile Include="TabControl\VisualStudioTabControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBox\eMaskedTextBox.Designer.vb">
+      <DependentUpon>eMaskedTextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TextBox\eMaskedTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBox\eRicherTextBox.Designer.vb">
+      <DependentUpon>eRicherTextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TextBox\eRicherTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBox\eRichTextBox.Designer.vb">
+      <DependentUpon>eRichTextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TextBox\eRichTextBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TextBox\eTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBox\SearchTextBox\Control\eSearchTextBox.Designer.vb">
+      <DependentUpon>eSearchTextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TextBox\SearchTextBox\Control\eSearchTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBox\SearchTextBox\Control\NativeConstants.vb" />
+    <Compile Include="TextBox\SearchTextBox\Control\NativeMethods.vb" />
+    <Compile Include="TextBox\SearchTextBox\Design\SearchTextBoxDesigner.vb" />
+    <Compile Include="TreeView\eTreeView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeView\eTreeViewTriState.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\dlgCorners.resx">
+      <DependentUpon>dlgCorners.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Button\eDDControl.resx">
+      <DependentUpon>eDDControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact Info\eContactDetails.resx">
+      <DependentUpon>eContactDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupBox\eCollapseButton.resx">
+      <DependentUpon>eCollapseButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Button\eDropdownColorBlender.resx">
+      <DependentUpon>eDropdownColorBlender.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComboBox\DropDownContainer\eDropDownContainer.resx">
+      <DependentUpon>eDropDownContainer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComboBox\eComboBoxIcon.resx">
+      <DependentUpon>eComboBoxIcon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupBox\eCollapseBox.resx">
+      <DependentUpon>eCollapseBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupBox\eCollapseGroupBox.resx">
+      <DependentUpon>eCollapseGroupBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupBox\eGroupBox.resx">
+      <DependentUpon>eGroupBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Label\DropdownColorBlender.resx">
+      <DependentUpon>DropdownColorBlender.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListControl\eListControl.resx">
+      <DependentUpon>eListControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListControl\eListControlItem.resx">
+      <DependentUpon>eListControlItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListControl\eRatingBar.resx">
+      <DependentUpon>eRatingBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\eCollapsePanel.resx">
+      <DependentUpon>eCollapsePanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureBox\ePictureBox.resx">
+      <DependentUpon>ePictureBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureBox\eProfilePic.resx">
+      <DependentUpon>eProfilePic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBar\eVistaProgressBar.resx">
+      <DependentUpon>eVistaProgressBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBar\frmVistaProgressBar.resx">
+      <DependentUpon>frmVistaProgressBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strips\Appearance\frmAppearanceEditor.resx">
+      <DependentUpon>frmAppearanceEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextBox\eRichTextBox.resx">
+      <DependentUpon>eRichTextBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextBox\eTextBox.resx">
+      <DependentUpon>eTextBox.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Button\MBGlassButton.bmp" />
+    <Content Include="Button\Resources\collapse_button.bmp" />
+    <Content Include="Button\Resources\eButton.bmp" />
+    <Content Include="Button\Resources\glass_button.bmp" />
+    <Content Include="Button\Resources\restarrow.gif" />
+    <Content Include="Button\Resources\selarrow.gif" />
+    <Content Include="Button\Resources\shield.gif" />
+    <Content Include="Button\Resources\split_button.bmp" />
+    <Content Include="ComboBox\DropDownContainer\Resources\DDContainer.bmp" />
+    <Content Include="ComboBox\Resources\combobox_datetime.bmp" />
+    <Content Include="ComboBox\Resources\combobox_multi_column.bmp" />
+    <Content Include="ComboBox\Resources\icon_combobox.bmp" />
+    <Content Include="DataGridView\Resources\datagridview.bmp" />
+    <Content Include="DataGridView\Resources\starhotone.png" />
+    <Content Include="DataGridView\Resources\starone.png" />
+    <Content Include="GroupBox\Resources\CheckGroupBox.bmp" />
+    <Content Include="GroupBox\Resources\collapse_groupbox.bmp" />
+    <Content Include="GroupBox\Resources\eGroupBox.bmp" />
+    <Content Include="GroupBox\Resources\RadioGroupBox.bmp" />
+    <Content Include="Label\Resources\label.bmp" />
+    <Content Include="Label\Resources\varticallabel.bmp" />
+    <Content Include="ListControl\Resources\listcontrol.bmp" />
+    <Content Include="ListView\Resources\listview.bmp" />
+    <Content Include="Panel\Resources\gradient_panel.bmp" />
+    <Content Include="Panel\Resources\rounded_panel.bmp" />
+    <Content Include="PictureBox\Resources\people.png" />
+    <Content Include="ProgressBar\Resources\progress_bar.bmp" />
+    <Content Include="ProgressBar\Resources\vista_progress_bar.bmp" />
+    <Content Include="Strips\Resources\menu.bmp" />
+    <Content Include="Strips\Resources\status_bar.bmp" />
+    <Content Include="Strips\Resources\toolbar.bmp" />
+    <Content Include="TabControl\eTabStrip\Resources\eTabStrip.bmp" />
+    <Content Include="TabControl\Resources\tabcontrol.bmp" />
+    <Content Include="TextBox\Resources\bold16.png" />
+    <Content Include="TextBox\Resources\bullets.gif" />
+    <Content Include="TextBox\Resources\copy16.png" />
+    <Content Include="TextBox\Resources\cut16.png" />
+    <Content Include="TextBox\Resources\Date.png" />
+    <Content Include="TextBox\Resources\italic16.png" />
+    <Content Include="TextBox\Resources\maskedtextbox.bmp" />
+    <Content Include="TextBox\Resources\paste.png" />
+    <Content Include="TextBox\Resources\Picture.png" />
+    <Content Include="TextBox\Resources\redo_icon.gif" />
+    <Content Include="TextBox\Resources\richtextbox.bmp" />
+    <None Include="TextBox\Resources\searchtextbox.bmp" />
+    <Content Include="TextBox\Resources\textaligncenter16.png" />
+    <Content Include="TextBox\Resources\textalignjustify16.png" />
+    <Content Include="TextBox\Resources\textalignleft16.png" />
+    <Content Include="TextBox\Resources\textalignright16.png" />
+    <Content Include="TextBox\Resources\textbox.bmp" />
+    <Content Include="TextBox\Resources\underline16.png" />
+    <Content Include="TextBox\Resources\undo_icon.gif" />
+    <Content Include="TextBox\SearchTextBox\Resources\active_search.png" />
+    <Content Include="TextBox\SearchTextBox\Resources\inactive_search.png" />
+    <Content Include="TextBox\SearchTextBox\Resources\searchtextbox.bmp" />
+    <Content Include="TreeView\Resources\view_tree.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DateTimePicker\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,3474 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ESARControls
+</name>
+</assembly>
+<members>
+<member name="F:ESAR_Controls.UIControls.DataGridView.eReadOnlyTextBox.components">
+	<summary>
+ Required designer variable.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eReadOnlyTextBox.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eReadOnlyTextBox.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.PictureBox.eProfilePic.LoadImage(System.Windows.Forms.Control,System.Int64)">
+	<summary>
+ Browses for an Image that it loads into the supplied image control
+ the image should be equal to or below the set file size limit
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="fileSizeLimit"></param>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.PictureBox.eProfilePic.LoadImage(System.Windows.Forms.Control)">
+	<summary>
+ Browses for an Image that it loads into the supplied image control
+ </summary>
+	<param name="sourceControl"></param>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.PictureBox.eProfilePic.ReadBytes(System.String)">
+	<summary>
+ Returns bytes of a file from the supplied path
+ </summary>
+	<param name="path"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.PictureBox.eProfilePic.ReadBytes(System.Drawing.Image)">
+	<summary>
+ Returns bytes of the supplied image
+ </summary>
+	<param name="data"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.PictureBox.eProfilePic.SaveImage(System.Drawing.Image,System.String)">
+	<summary>
+ Opens a save file dialog to save the supplied image as supplied file name
+ </summary>
+	<param name="data"></param>
+	<param name="fileName"></param>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.PictureBox.eProfilePic.SaveImage(System.Drawing.Image)">
+	<summary>
+ Opens a save file dialog to save the supplied image as Photo
+ </summary>
+	<param name="data"></param>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.DrawDigitalHelper.DrawNumbers(System.Drawing.Graphics,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.RectangleF)">
+	<summary>
+ Draws the given number in the 7-Segment format.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.DrawDigitalHelper.DrawADigit(System.Drawing.Graphics,System.Int32,System.Drawing.Color,System.Drawing.PointF,System.Boolean,System.Single)">
+	<summary>
+ Draws a digit in 7-Segement format.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.DrawDigitalHelper.GetX(System.Single,System.Single)">
+	<summary>
+ Gets Relative X for the given width to draw digit.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.DrawDigitalHelper.GetY(System.Single,System.Single)">
+	<summary>
+ Gets relative Y for the given height to draw digit.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.DrawDigitalHelper.IsNumberAvailable(System.Int32,System.Int32[])">
+	<summary>
+ Returns true if a given number is available in the given list.
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.TabControl.Helpers.CollectionClear">
+	<summary>
+ Represents the method that will handle the event that has no data.
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.TabControl.Helpers.CollectionChange">
+	<summary>
+ Represents the method that will handle the event that has item data.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.Clearing">
+	<summary>
+ Occurs just before the collection contents are cleared.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.Cleared">
+	<summary>
+ Occurs just after the collection contents are cleared.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.Inserting">
+	<summary>
+ Occurs just before an item is added to the collection.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.Inserted">
+	<summary>
+ Occurs just after an item has been added to the collection.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.Removing">
+	<summary>
+ Occurs just before an item is removed from the collection.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.Removed">
+	<summary>
+ Occurs just after an item has been removed from the collection.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.#ctor">
+	<summary>
+ Initializes DrawTab new instance of the CollectionWithEvents class.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.SuspendEvents">
+	<summary>
+ Do not generate change events until resumed.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.ResumeEvents">
+	<summary>
+ Safe to resume change events.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.IsSuspended">
+	<summary>
+ Gets DrawTab value indicating if events are currently suspended.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.OnClear">
+	<summary>
+ Raises the Clearing event when not suspended.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.OnClearComplete">
+	<summary>
+ Raises the Cleared event when not suspended.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.OnInsert(System.Int32,System.Object)">
+	<summary>
+ Raises the Inserting event when not suspended.
+ </summary>
+	<param name="index">Index of object being inserted.</param>
+	<param name="value">The object that is being inserted.</param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.OnInsertComplete(System.Int32,System.Object)">
+	<summary>
+ Raises the Inserted event when not suspended.
+ </summary>
+	<param name="index">Index of inserted object.</param>
+	<param name="value">The object that has been inserted.</param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.OnRemove(System.Int32,System.Object)">
+	<summary>
+ Raises the Removing event when not suspended.
+ </summary>
+	<param name="index">Index of object being removed.</param>
+	<param name="value">The object that is being removed.</param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.OnRemoveComplete(System.Int32,System.Object)">
+	<summary>
+ Raises the Removed event when not suspended.
+ </summary>
+	<param name="index">Index of removed object.</param>
+	<param name="value">The object that has been removed.</param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents.IndexOf(System.Object)">
+	<summary>
+ Returns the index of the first occurrence of DrawTab value.
+ </summary>
+	<param name="value">The object to locate.</param>
+	<returns>Index of object; otherwise -1</returns>
+</member><member name="T:ESAR_Controls.UIControls.TabControl.Helpers.CollectionWithEvents">
+	<summary>
+ Extend collection base class by generating change events.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.DataGridView.eSummaryControlContainer.VisibilityChanged">
+	<summary>
+ Event is raised when visibility changes and the
+ lastVisibleState is not the new visible state
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eSummaryControlContainer.IsInteger(System.Object)">
+	<summary>
+ Checks if passed object is of type of integer
+ </summary>
+	<param name="o">object</param>
+	<returns>true/ false</returns>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eSummaryControlContainer.IsDecimal(System.Object)">
+	<summary>
+ Checks if passed object is of type of decimal/ double
+ </summary>
+	<param name="o">object</param>
+	<returns>true/ false</returns>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eSummaryControlContainer.RefreshSummary">
+	<summary>
+ Enable manual refresh of the SummaryDataGridView
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eSummaryControlContainer.calcSummaries">
+	<summary>
+ Calculate the Sums of the summary columns
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eSummaryControlContainer.reCreateSumBoxes">
+	<summary>
+ Create summary boxes for each Column of the DataGridView        
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.DataGridView.eSummaryControlContainer.SortedColumns">
+	<summary>
+ Order the columns in the way they are displayed
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eSummaryControlContainer.resizeSumBoxes">
+	<summary>
+ Resize the summary Boxes depending on the 
+ width of the Columns of the DataGridView
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Panels.eGradientPanel.StartColor">
+	<summary>
+ Gets or sets the left/upper color for the gradient panel
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Panels.eGradientPanel.EndColor">
+	<summary>
+ Gets or sets the right/lower color for the gradient panel
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Panels.eGradientPanel.GradientMode">
+	<summary>
+ Gets or sets the direction of the linear gradient
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.Panels.eGradientPanel">
+	<summary>
+ Enables you to group control in a panel with a gradient background.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ComboBox.eComboBoxDateTime.components">
+	<summary>
+ Required designer variable.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ComboBox.eComboBoxDateTime.Dispose(System.Boolean)">
+	<summary>
+ Clean up any resources being used.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ComboBox.eComboBoxDateTime.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.m_displaySumRowHeader">
+	<summary>
+ If true a row header at the left side 
+ of the summaryboxes is displayed.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.m_sumRowHeaderText">
+	<summary>
+ Text displayed in the row header
+ of the summary row.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.m_sumRowHeaderTextBold">
+	<summary>
+ Text displayed in the row header
+ of the summary row.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.m_summaryColumns">
+	<summary>
+ Add columns to sum up in text form
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.m_summaryRowVisible">
+	<summary>
+ Display the summary Row
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.ScrollBars">
+	<summary>
+ advoid user from setting the scrollbars manually
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.RefreshSummary">
+	<summary>
+ Refresh the summary
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.calculateColumnsWidth">
+	<summary>
+ Calculate the width of all visible columns
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.hScrollBar_Scroll(System.Object,System.Windows.Forms.ScrollEventArgs)">
+	<summary>
+ Moves viewable area of DataGridView according to the position of the scrollbar
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.OnCreateSummary(System.Object,System.EventArgs)">
+	<summary>
+ Calls the CreateSummary event
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.adjustSumControlToGrid">
+	<summary>
+ Position the summaryControl under the
+ DataGridView
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.adjustScrollbarToSummaryControl">
+	<summary>
+ Position the hScrollbar under the summaryControl
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.resizeHScrollBar">
+	<summary>
+ Resizes the horizontal scrollbar acording
+ to the with of the client size and maximum size of the scrollbar
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.hScrollBar_VisibleChanged(System.Object,System.EventArgs)">
+	<summary>
+ Recalculate the width of the summary control according to 
+ the state of the scrollbar
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.summaryControl_VisibilityChanged(System.Object,System.EventArgs)">
+	<summary>
+ Recalculate the height of the DataGridView
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="T:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary">
+	<summary>
+ Todo. Add RightToLeft Support for ReadOnlyTextbox
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox.components">
+	<summary>
+ Required designer variable.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox.Dispose(System.Boolean)">
+	<summary>
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.GroupBox.eRadioGroupBox.components">
+	<summary>
+ Required designer variable.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eRadioGroupBox.Dispose(System.Boolean)">
+	<summary>
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eRadioGroupBox.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.CustomControlsLogic.SuspendLogic(System.Windows.Forms.Control)">
+	<summary>
+ Stops painting messages and events.
+ </summary>
+	<param name="parent">Parent control handle</param>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.CustomControlsLogic.ResumeLogic(System.Windows.Forms.Control)">
+	<summary>
+ Starts painting messages and events.
+ </summary>
+	<param name="parent">Parent control handle</param>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.CustomControlsLogic.GetMyClone(System.Object)">
+	<summary>
+ Creates a new instance of the specified type using that type's allowed properties.
+ </summary>
+	<param name="source">Source Object (To be cloned.)</param>
+	<returns>Returns created new object</returns>
+</member><member name="T:ESAR_Controls.UIControls.ProgressBar.CustomControlsLogic">
+	<summary>
+ Please be carefull to use this tool for your controls. Call the ResumeLogic() method after the SuspendLogic() method at the same control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.IsCloneableAttribute.IsCloneable">
+	<summary>
+ Determines whether the current property is cloneable or not.
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.ProgressBar.IsCloneableAttribute">
+	<summary>
+ To apply clone support for specific property, please use this tool.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.Value">
+	<summary>
+ The value that is displayed on the progress bar.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.MaxValue">
+	<summary>
+ The maximum value for the Value property.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.MinValue">
+	<summary>
+ The minimum value for the Value property.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.MarqueeSpeed">
+	<summary>
+ The color of the glow.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.HighlightColor">
+	<summary>
+ The color of the highlights.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.BackgroundColor">
+	<summary>
+ The color of the background.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.Animate">
+	<summary>
+ Whether the glow is animated.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.GlowColor">
+	<summary>
+ The color of the glow.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.GlowTmrInterval">
+	<summary>
+ The color of the glow.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.GlowWhenFinished">
+	<summary>
+ Whether the glow is animated.
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.ValueChangedHandler">
+ When the Value property is changed.
+
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.ValueChanged">
+ When the Value property is changed.
+
+</member><member name="T:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.MinChangedHandler">
+ When the MinValue property is changed.
+
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.MinChanged">
+ When the MinValue property is changed.
+
+</member><member name="T:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.MaxChangedHandler">
+ When the MaxValue property is changed.
+
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.eVistaProgressBar.MaxChanged">
+ When the MaxValue property is changed.
+
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.Shape">
+	<summary>
+ The Shape of the Button as eShape choices (Ellipse, Rectangle, and Triangles)
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.DimFactorHover">
+	<summary>
+ Get or Set how much to dim the color on mouse rollover. Positive to Lighten and negative to Darken
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.DimFactorClick">
+	<summary>
+ Get or Set how much to dim the color on mouse down. Positive to Lighten and negative to Darken
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.BorderColor">
+	<summary>
+ Get or Set the Border color
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.BorderShow">
+	<summary>
+ Get or Set whether to show the Border
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.FillType">
+	<summary>
+ The eFillType Fill Type to apply to the eButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.FillTypeLinear">
+	<summary>
+ The Linear Blend type
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.ColorFillSolid">
+	<summary>
+ The Solid Color to fill the eButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.ColorFillBlend">
+	<summary>
+ The ColorBlend used to fill the eButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.Text">
+	<summary>
+ Get or Set the Button Text
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.TextSmoothingMode">
+	<summary>
+ Get or Set the TextrenderingHint fot the button text
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.TextAlign">
+	<summary>
+ Get or Set the alignment for the text
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.TextMargin">
+	<summary>
+ Get or Set the margion between the text and the button edge
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.TextImageRelation">
+	<summary>
+ Get or Set the Relationship of the Text to the Image
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.TextShadowShow">
+	<summary>
+ Get or Set if the Text has a shadow
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.TextShadow">
+	<summary>
+ Get or Set the color of the Shadow Text
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.Image">
+	<summary>
+ Get or Set the small Image next to text
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.ImageAlign">
+	<summary>
+ Get or Set the placement of the Image
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.ImageSize">
+	<summary>
+ Get or Set the Size of the Image
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.Imagelist">
+	<summary>
+ Get or Set the ImageList control
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.ImageIndex">
+	<summary>
+ Get or Set the ImageList control
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.SideImage">
+	<summary>
+ Get or Set the Side Image
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.SideImageSize">
+	<summary>
+ Get or Set the Size of the Side Image
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.SideImageIsClickable">
+	<summary>
+ Get or Set if the Side Image raises its own click event
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.SideImageBehindText">
+	<summary>
+ Get or Set if the Side Image is in front or behind the Text
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.SideImageAlign">
+	<summary>
+ Get or Set the Side Image Alignment
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.FocalPoints">
+	<summary>
+ The CenterPoint and FocusScales for the ColorBlend
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eButton.CenterPtTrackerRectangle">
+	<summary>
+ This gets the Rectangle around the CenterPt for the DesignTime interaction
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eButton.FocusPtTrackerRectangle">
+	<summary>
+ This gets the Rectangle around the FocusPt for the DesignTime interaction
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eButton.UseMnemonic">
+	<summary>
+ If true, the first character proceeded by an ampersand will be used as the button's mnemonic key.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eButton.DimTheColor(System.Drawing.Color,System.Int32)">
+	<summary>
+ This function takes the given color and Lightens or Darkens it by the given value 
+ </summary>
+	<param name="DimColor">Base Color object to be changed</param>
+	<param name="DimDegree">Positive value to darken and negative value to lighten DimColor</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eButton.GrayTheColor(System.Drawing.Color)">
+	<summary>
+ This function takes the given color and returns its gray equivilant
+ </summary>
+	<param name="GrayColor">Color object to be grayed</param>
+</member><member name="T:ESAR_Controls.UIControls.Button.eButton">
+	<summary>
+ Custom Button Control with Gradient Colors and Extra Image (VB.NET)
+ </summary>
+	<remarks>v2.0</remarks>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.GradientProgress.GradientChanged">
+	<summary>
+ Occurs when the sub properties changed of the ProgressGradient property.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientProgress.IsBlendedForProgress">
+	<summary>
+ Determines whether the blended effect enable or not for progress indicator.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientProgress.ColorStart">
+	<summary>
+ Gets or Sets, the first progress color.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientProgress.ColorEnd">
+	<summary>
+ Gets or Sets, the second progress color.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientProgress.ManipuleStart">
+	<summary>
+ Gets, the first manipulation parameters.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientProgress.ManipuleEnd">
+	<summary>
+ Gets, the second manipulation parameters.
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.TabControl.HitTestResult">
+	<summary>
+ Hit test result of <see cref="T:ESAR_Controls.UIControls.TabControl.eTabStrip"/>
+	</summary>
+</member><member name="T:ESAR_Controls.UIControls.TabControl.ThemeTypes">
+	<summary>
+ Theme Type
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.TabControl.eTabStripItemChangeTypes">
+	<summary>
+ Indicates a change into TabStrip collection
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eArrowButton.InitializeComponent">
+	<summary>
+ Erforderliche Methode für die Designerunterstützung. 
+ Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eArrowButton.NormalStartColor">
+	<summary>
+ Startcolor for the GradientBrush
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eArrowButton.NormalEndColor">
+	<summary>
+ Endcolor for the GradientBrush
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eArrowButton.OnResize(System.EventArgs)">
+	<summary>
+ Repaint ( recalc ) the arrow 
+ </summary>
+	<param name="e"></param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eArrowButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Paint the arrow.
+ </summary>
+	<param name="e"></param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eArrowButton.Init">
+	<summary>
+ Sequence to create the button
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eArrowButton.MoveCenterPoint(System.Int32)">
+	<summary>
+ To prevent clipping of the arrow edges after an 
+ rotation, we shift the CenterPoint. For that we 
+ must only check the points 0 and 1
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eArrowButton.BuildInitialArrow(System.Int32)">
+	<summary>
+ Build the startarrow. it is a upward pointing arrow.
+ </summary>
+	<param name="dx">The maximum height and width of the panel</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eArrowButton.MakeSquare">
+	<summary>
+ If the placeholder is not exact a square,
+ make it a square
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eArrowButton.GraphicsPathFromPoints(System.Drawing.Point[],System.Drawing.Drawing2D.GraphicsPath,System.Drawing.Point)">
+	<summary>
+ Create the arrow as a GraphicsPath from the point array
+ </summary>
+	<param name="pnts">Array with points</param>
+	<param name="gp">The GraphicsPath object</param>
+	<param name="hs">Point with offset data</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eArrowButton.DrawArrowText(System.Drawing.Graphics)">
+	<summary>
+ Display a the text on the arrow
+ </summary>
+	<param name="g"></param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eArrowButton.Clear">
+	<summary>
+ Simply clear the points and reset the graphicpath
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eArrowButton.RotateArrow(System.Int32)">
+	<summary>
+ Rotate the arrow around the CenterPoint to get different 
+ pointing directions.
+ </summary>
+	<param name="nDeg">Rotation in degree</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eArrowButton.Dispose(System.Boolean)">
+	<summary>
+ Clear the used resources
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.BitArray.Item(System.Int32)">
+	<summary>
+ The Indexer for a 32 bit array
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.BitArray.BitPosValid(System.Int32)">
+	<summary>
+ Check if the wanted bit is in a valid Range
+ </summary>
+	<param name="BitPos"></param>
+</member><member name="M:ESAR_Controls.UIControls.Button.BitArray.Clear">
+	<summary>
+ Clear all bits in the "bitarray"
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.MouseOver">
+	<summary>
+ Get or Set if the eLabel will Glow when the mouse is over it
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.MouseOverColor">
+	<summary>
+ Get or Set what color the eLabel will Glow when the mouse is over it
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.MouseOverForeColor">
+	<summary>
+ Get or Set what Forecolor the eLabel will be when the mouse is over it
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.Checked">
+	<summary>
+ Get or Set the Checked status
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.CheckedType">
+	<summary>
+ Get or Set the Checked behavior
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.CheckedColor">
+	<summary>
+ Get or Set what color the eLabel will Glow when the mouse is over it
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.FeatherState">
+	<summary>
+ Get or Set if the text is glowing
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.Feather">
+	<summary>
+ Get or Set the level of feathering (blurring) of the Outer Glow
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.Pulse">
+	<summary>
+ Get or Set if the eLabel should be Pulsing or not
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.PulseSpeed">
+	<summary>
+ Get or Set how fast to pulse the eLabel
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.ShadowOffset">
+	<summary>
+ Get or Set how far to offset the shadow from the text
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.ShadowState">
+	<summary>
+ Get or Set if the eLabel displays the shadow text
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.ShadowColor">
+	<summary>
+ Get or Set what color to use for the shadow text
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.GlowMatchChecked">
+	<summary>
+ Get or Set if the text is glowing
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.GlowState">
+	<summary>
+ Get or Set if the text is glowing
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.Glow">
+	<summary>
+ Get or Set how far out the text glows
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.GlowColor">
+	<summary>
+ Get or Set what color to use for the Glow
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.Border">
+	<summary>
+ Get or Set to show or not show the border
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.BorderColor">
+	<summary>
+ Get or Set what Color to draw the border
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.BorderWidth">
+	<summary>
+ Get or Set what Width to draw the border
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.AutoFit">
+	<summary>
+ Get or Set if the text is fitted to the DisplayRectangle or uses Font Size 
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.TextWordWrap">
+	<summary>
+ Get or Set if the text wraps inside the DisplayRectangle 
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.AutoEllipsis">
+	<summary>
+  Get or Set if the text adds an Ellipsis (...) when the text exceeds the width
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.FillType">
+	<summary>
+ The eFillType Fill Type to apply to the eLabel
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.FillTypeLinear">
+	<summary>
+ The Linear Blend type
+ </summary>
+</member><member name="P:ESAR_Controls.eLabel.ForeColorBlend">
+	<summary>
+ The ColorBlend used to fill the eLabel
+ </summary>
+</member><member name="M:ESAR_Controls.eLabel.EnabledColor(System.Drawing.Color)">
+	<summary>
+ Convert color to gray if Disabled else return origional color
+ </summary>
+	<param name="ColorIn">Color to Check</param>
+</member><member name="M:ESAR_Controls.eLabel.EnableBlends(System.Drawing.Color[])">
+	<summary>
+ Convert colorblend to grayscale if Disabled else return origional colorblend
+ </summary>
+	<param name="ColorIn">Colorblend to Check</param>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.eAnimatedEasyProgressControl.FrameChanged">
+	<summary>
+ Represents an event which occurs when the index of the active frame changed.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eAnimatedEasyProgressControl.EasyProgressTaskManager">
+	<summary>
+ Gets or Sets the task manager for painting this control.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.eAnimatedEasyProgressControl.Dispose(System.Boolean)">
+	<summary>
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.DockingModeChanged">
+	<summary>
+ Occurs when the currently docking style of the EasyProgressBar is changed.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.EasyProgressBarClosed">
+	<summary>
+ Event raised when the EasyProgressBar control is closed by the user, it's docking state should be float window for this change to take effect.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.EasyProgressBarClosing">
+	<summary>
+ Occurs when the docking state of the EasyProgressBar control is in the float mode and EasyProgressBar control is being closed by the user.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.IsUserInteraction">
+	<summary>
+ Provides keyboard support to the user for EasyProgressBar operations[Home(Min value), End(Max value), Left(Decrease current value), Right(Increase current value), Enter(ReDocking), F1 Keys].
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.AlphaMaker">
+	<summary>
+ Gets or sets, this control's alpha maker component whose window has a alpha support or to be.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+	<summary>
+ If IsUserInteraction property is enabled, executes this method operations.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.ProgressGradient">
+	<summary>
+ You can change the progress appearance from here.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.BackgroundGradient">
+	<summary>
+ You can change the background appearance from here.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.ProgressColorizer">
+	<summary>
+ You can change the color components of the progress bitmap[RGBA Colorizer for progress indicator].
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.DigitBoxGradient">
+	<summary>
+ You can change the background appearance of the DigitBox rectangle from here.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.Value">
+	<summary>
+ Gets or Sets, the current progress value of the control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.Minimum">
+	<summary>
+ Gets or Sets, the minimum progress value of the control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.Maximum">
+	<summary>
+ Gets or Sets, the maximum progress value of the control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.IsPaintBorder">
+	<summary>
+ Determines whether the control's border is draw or not.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.IsDigitDrawEnabled">
+	<summary>
+ Determines whether the digital number drawing is enabled or not.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.ShowPercentage">
+	<summary>
+ Determines whether the percentage text is show or hide.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.DisplayFormat">
+	<summary>
+ Display text formatting for progressbar value.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.BorderColor">
+	<summary>
+ Gets or Sets, the control's border color from here.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.ControlBorderStyle">
+	<summary>
+ Gets or Sets, the current border style of the ProgressBar control.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.ValueChanged">
+	<summary>
+ Occurs when the progress value changed of the control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.FloatWindowHandle">
+	<summary>
+ Gets, the handle of the float window, whose window has a alpha support or to be.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.IsLayered">
+	<summary>
+ Gets, the float window control is marked to layered flag or not.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.TargetTransparency">
+	<summary>
+ Gets or sets, the target opacity value of the float window.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.eEasyProgressBar.CurrentTransparency">
+	<summary>
+ Gets or sets, the currently opacity value of the float window.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarDesigner.PostFilterEvents(System.Collections.IDictionary)">
+	<summary>
+ Override this method to remove unused or inappropriate events.
+ </summary>
+	<param name="events">Events collection of the control.</param>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarDesigner.PreFilterProperties(System.Collections.IDictionary)">
+	<summary>
+ Override this method to add some properties to the control or change the properties attributes for a dynamic user interface.
+ </summary>
+	<param name="properties">Properties collection of the control before than add a new property to the collection by user.</param>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarDesigner.PostFilterProperties(System.Collections.IDictionary)">
+	<summary>
+ Override this method to remove unused or inappropriate properties.
+ </summary>
+	<param name="properties">Properties collection of the control.</param>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.ToolStripAnimatedEasyProgressBarItem.#ctor">
+	<summary>
+ Initializes a new instance of the ToolStripAnimatedEasyProgressBarItem class. 
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripAnimatedEasyProgressBarItem.AnimatedProgressBar">
+	<summary>
+ Gets the AnimatedEasyProgressControl that this ToolStripControlHost is hosting.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripAnimatedEasyProgressBarItem.EasyProgressTaskManager">
+	<summary>
+ Gets or Sets the task manager for painting this control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripAnimatedEasyProgressBarItem.Text">
+	<summary>
+ Gets or sets the text displayed on the <see cref="T:ESAR_Controls.UIControls.ProgressBar.ToolStripAnimatedEasyProgressBarItem"/>.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripAnimatedEasyProgressBarItem.ForeColor">
+	<summary>
+ Gets or sets the foreground color of the hosted control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripAnimatedEasyProgressBarItem.Font">
+	<summary>
+ Gets or sets the font to be used on the hosted control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripAnimatedEasyProgressBarItem.DefaultSize">
+	<summary>
+ Gets the height and width of the ToolStripAnimatedEasyProgressBarItem in pixels.
+ </summary>
+	<value>
+ Type: <see cref="T:System.Drawing.Size"/>
+ A Point value representing the height and width.
+ </value>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripAnimatedEasyProgressBarItem.DefaultMargin">
+	<summary>
+ Gets the spacing between the <see cref="T:ESAR_Controls.UIControls.ProgressBar.ToolStripAnimatedEasyProgressBarItem"/> and adjacent items.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.ToolStripAnimatedEasyProgressBarItem.OnOwnerChanged(System.EventArgs)">
+	<summary>
+ Raises the OwnerChanged event. 
+ </summary>
+	<param name="e">An EventArgs that contains the event data.</param>
+</member><member name="T:ESAR_Controls.UIControls.ProgressBar.ToolStripAnimatedEasyProgressBarItem">
+	<summary>
+ Represents a custom animated progressbar control for all strip controls.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eGlassButton.BackColor">
+	<summary> 
+ Gets or sets the background color of the control. 
+ </summary>
+	<returns>A <see cref="T:System.Drawing.Color"/> value representing the background color.</returns>
+</member><member name="P:ESAR_Controls.UIControls.Button.eGlassButton.ForeColor">
+	<summary> 
+ Gets or sets the foreground color of the control. 
+ </summary>
+	<returns>The foreground <see cref="T:System.Drawing.Color"/> of the control.</returns>
+</member><member name="P:ESAR_Controls.UIControls.Button.eGlassButton.InnerBorderColor">
+	<summary> 
+ Gets or sets the inner border color of the control. 
+ </summary>
+	<returns>A <see cref="T:System.Drawing.Color"/> value representing the color of the inner border.</returns>
+</member><member name="P:ESAR_Controls.UIControls.Button.eGlassButton.OuterBorderColor">
+	<summary> 
+ Gets or sets the outer border color of the control. 
+ </summary>
+	<returns>A <see cref="T:System.Drawing.Color"/> value representing the color of the outer border.</returns>
+</member><member name="P:ESAR_Controls.UIControls.Button.eGlassButton.ShineColor">
+	<summary> 
+ Gets or sets the shine color of the control. 
+ </summary>
+	<returns>A <see cref="T:System.Drawing.Color"/> value representing the shine color.</returns>
+</member><member name="P:ESAR_Controls.UIControls.Button.eGlassButton.GlowColor">
+	<summary> 
+ Gets or sets the glow color of the control. 
+ </summary>
+	<returns>A <see cref="T:System.Drawing.Color"/> value representing the glow color.</returns>
+</member><member name="P:ESAR_Controls.UIControls.Button.eGlassButton.FadeOnFocus">
+	<summary> 
+ Gets or sets a value indicating whether the button should fade in and fade out when it's getting and loosing the focus. 
+ </summary>
+	<value><c>true</c> if fading with changing the focus; otherwise, <c>false</c>.</value>
+</member><member name="P:ESAR_Controls.UIControls.Button.eGlassButton.State">
+	<summary> 
+ Gets the state of the button control. 
+ </summary>
+	<value>The state of the button control.</value>
+</member><member name="E:ESAR_Controls.UIControls.Button.eGlassButton.InnerBorderColorChanged">
+	<summary>Occurs when the value of the <see cref="P:Glass.GlassButton.InnerBorderColor"/> property changes.</summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnInnerBorderColorChanged(System.EventArgs)">
+	<summary> 
+ Raises the <see cref="E:Glass.GlassButton.InnerBorderColorChanged"/> event. 
+ </summary>
+	<param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+</member><member name="E:ESAR_Controls.UIControls.Button.eGlassButton.OuterBorderColorChanged">
+	<summary>Occurs when the value of the <see cref="P:Glass.GlassButton.OuterBorderColor"/> property changes.</summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnOuterBorderColorChanged(System.EventArgs)">
+	<summary> 
+ Raises the <see cref="E:Glass.GlassButton.OuterBorderColorChanged"/> event. 
+ </summary>
+	<param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+</member><member name="E:ESAR_Controls.UIControls.Button.eGlassButton.ShineColorChanged">
+	<summary>Occurs when the value of the <see cref="P:Glass.GlassButton.ShineColor"/> property changes.</summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnShineColorChanged(System.EventArgs)">
+	<summary> 
+ Raises the <see cref="E:Glass.GlassButton.ShineColorChanged"/> event. 
+ </summary>
+	<param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+</member><member name="E:ESAR_Controls.UIControls.Button.eGlassButton.GlowColorChanged">
+	<summary>Occurs when the value of the <see cref="P:Glass.GlassButton.GlowColor"/> property changes.</summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnGlowColorChanged(System.EventArgs)">
+	<summary> 
+ Raises the <see cref="E:Glass.GlassButton.GlowColorChanged"/> event. 
+ </summary>
+	<param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnSizeChanged(System.EventArgs)">
+	<summary> 
+ Raises the <see cref="E:System.Windows.Forms.Control.SizeChanged"/> event. 
+ </summary>
+	<param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnClick(System.EventArgs)">
+	<summary> 
+ Raises the <see cref="E:System.Windows.Forms.Control.Click"/> event. 
+ </summary>
+	<param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnEnter(System.EventArgs)">
+	<summary> 
+ Raises the <see cref="E:System.Windows.Forms.Control.Enter"/> event. 
+ </summary>
+	<param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnLeave(System.EventArgs)">
+	<summary> 
+ Raises the <see cref="E:System.Windows.Forms.Control.Leave"/> event. 
+ </summary>
+	<param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+	<summary> 
+ Raises the <see cref="M:System.Windows.Forms.ButtonBase.OnKeyUp(System.Windows.Forms.KeyEventArgs)"/> event. 
+ </summary>
+	<param name="e">A <see cref="T:System.Windows.Forms.KeyEventArgs"/> that contains the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+	<summary> 
+ Raises the <see cref="M:System.Windows.Forms.ButtonBase.OnKeyUp(System.Windows.Forms.KeyEventArgs)"/> event. 
+ </summary>
+	<param name="e">A <see cref="T:System.Windows.Forms.KeyEventArgs"/> that contains the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+	<summary> 
+ Raises the <see cref="E:System.Windows.Forms.Control.MouseDown"/> event. 
+ </summary>
+	<param name="e">A <see cref="T:System.Windows.Forms.MouseEventArgs"/> that contains the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+	<summary> 
+ Raises the <see cref="E:System.Windows.Forms.Control.MouseUp"/> event. 
+ </summary>
+	<param name="e">A <see cref="T:System.Windows.Forms.MouseEventArgs"/> that contains the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+	<summary> 
+ Raises the <see cref="M:System.Windows.Forms.Control.OnMouseMove(System.Windows.Forms.MouseEventArgs)"/> event. 
+ </summary>
+	<param name="e">A <see cref="T:System.Windows.Forms.MouseEventArgs"/> that contains the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnMouseEnter(System.EventArgs)">
+	<summary> 
+ Raises the <see cref="E:System.Windows.Forms.Control.MouseEnter"/> event. 
+ </summary>
+	<param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnMouseLeave(System.EventArgs)">
+	<summary> 
+ Raises the <see cref="E:System.Windows.Forms.Control.MouseLeave"/> event. 
+ </summary>
+	<param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary> 
+ Raises the <see cref="M:System.Windows.Forms.ButtonBase.OnPaint(System.Windows.Forms.PaintEventArgs)"/> event. 
+ </summary>
+	<param name="e">A <see cref="T:System.Windows.Forms.PaintEventArgs"/> that contains the event data.</param>
+</member><member name="E:ESAR_Controls.UIControls.Button.eGlassButton.Paint">
+	<summary> 
+ Occurs when the control is redrawn. 
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eGlassButton.FlatAppearance">
+	<summary>This property is not relevant for this class.</summary>
+	<returns>This property is not relevant for this class.</returns>
+</member><member name="P:ESAR_Controls.UIControls.Button.eGlassButton.FlatStyle">
+	<summary>This property is not relevant for this class.</summary>
+	<returns>This property is not relevant for this class.</returns>
+</member><member name="P:ESAR_Controls.UIControls.Button.eGlassButton.UseVisualStyleBackColor">
+	<summary>This property is not relevant for this class.</summary>
+	<returns>This property is not relevant for this class.</returns>
+</member><member name="T:ESAR_Controls.UIControls.Button.eGlassButton">
+	<summary> 
+ Represents a glass button control. 
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.components">
+	<summary>
+ Required designer variable.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewSummary.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.GroupBox.eGroupBox.GroupBoxGradientMode.None">
+	<summary>Specifies no gradient mode.</summary>
+</member><member name="F:ESAR_Controls.UIControls.GroupBox.eGroupBox.GroupBoxGradientMode.BackwardDiagonal">
+	<summary>Specifies a gradient from upper right to lower left.</summary>
+</member><member name="F:ESAR_Controls.UIControls.GroupBox.eGroupBox.GroupBoxGradientMode.ForwardDiagonal">
+	<summary>Specifies a gradient from upper left to lower right.</summary>
+</member><member name="F:ESAR_Controls.UIControls.GroupBox.eGroupBox.GroupBoxGradientMode.Horizontal">
+	<summary>Specifies a gradient from left to right.</summary>
+</member><member name="F:ESAR_Controls.UIControls.GroupBox.eGroupBox.GroupBoxGradientMode.Vertical">
+	<summary>Specifies a gradient from top to bottom.</summary>
+</member><member name="T:ESAR_Controls.UIControls.GroupBox.eGroupBox.GroupBoxGradientMode">
+	<summary>A special gradient enumeration.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.BackColor">
+	<summary>This feature will paint the background color of the control.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.CustomGroupBoxColor">
+	<summary>This feature will paint the group title background to the specified color if PaintGroupBox is set to true.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.PaintGroupBox">
+	<summary>This feature will paint the group title background to the CustomGroupBoxColor.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.GroupImage">
+	<summary>This feature can add a 16 x 16 image to the group title bar.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.ShadowColor">
+	<summary>This feature will change the control's shadow color.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.ShadowThickness">
+	<summary>This feature will change the size of the shadow border.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.BackgroundColor">
+	<summary>This feature will change the group control color. This color can also be used in combination with BackgroundGradientColor for a gradient paint.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.BackgroundGradientColor">
+	<summary>This feature can be used in combination with BackgroundColor to create a gradient background.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.BackgroundGradientMode">
+	<summary>This feature turns on background gradient painting.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.RoundCorners">
+	<summary>This feature will round the corners of the control.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.GroupTitle">
+	<summary>This feature will add a group title to the control.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.BorderColor">
+	<summary>This feature will allow you to change the color of the control's border.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.BorderThickness">
+	<summary>This feature will allow you to set the control's border size.</summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eGroupBox.ShadowControl">
+	<summary>This feature will allow you to turn on control shadowing.</summary>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eGroupBox.InitializeStyles">
+	<summary>This method will initialize the controls custom styles.</summary>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eGroupBox.InitializeGroupBox">
+	<summary>This method will initialize the GroupBox control.</summary>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eGroupBox.OnPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>Overrides the OnPaint method to paint control.</summary>
+	<param name="e">The paint event arguments.</param>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eGroupBox.PaintBack(System.Drawing.Graphics)">
+	<summary>This method will paint the control.</summary>
+	<param name="g">The paint event graphics object.</param>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eGroupBox.GroupBox_Resize(System.Object,System.EventArgs)">
+	<summary>This method fires when the GroupBox resize event occurs.</summary>
+	<param name="sender">The object the sent the event.</param>
+	<param name="e">The event arguments.</param>
+</member><member name="T:ESAR_Controls.UIControls.GroupBox.eGroupBox">
+	<summary>A special custom rounding GroupBox with many painting features.</summary>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.GetFontTable(System.Drawing.Font)">
+	<summary>
+ Creates a font table from a font object.  When an Insert or Append 
+ operation is performed a font is either specified or the default font
+ is used.  In any case, on any Insert or Append, only one font is used,
+ thus the font table will always contain a single font.  The font table
+ should have the form ...
+ 
+ {\fonttbl{\f0\[FAMILY]\fcharset0 [FONT_NAME];}
+ </summary>
+	<param name="_font"></param>
+	<returns></returns>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.GetColorTable(ESAR_Controls.UIControls.TextBox.eRicherTextBox.RtfColor,ESAR_Controls.UIControls.TextBox.eRicherTextBox.RtfColor)">
+	<summary>
+ Creates a font table from the RtfColor structure.  When an Insert or Append
+ operation is performed, _textColor and _backColor are either specified
+ or the default is used.  In any case, on any Insert or Append, only three
+ colors are used.  The default color of the RichTextBox (signified by a
+ semicolon (;) without a definition), is always the first color (index 0) in
+ the color table.  The second color is always the text color, and the third
+ is always the highlight color (color behind the text).  The color table
+ should have the form ...
+ 
+ {\colortbl ;[TEXT_COLOR];[HIGHLIGHT_COLOR];}
+ 
+ </summary>
+	<param name="_textColor"></param>
+	<param name="_backColor"></param>
+	<returns></returns>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.RemoveBadChars(System.String)">
+	<summary>
+ Called by overrided RichTextBox.Rtf accessor.
+ Removes the null character from the RTF.  This is residue from developing
+ the control for a specific instant messaging protocol and can be ommitted.
+ </summary>
+	<param name="_originalRtf"></param>
+	<returns>RTF without null character</returns>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.SetSelectionFont(System.String)">
+	<summary>
+ Sets the font only for the selected part of the rich text box
+ without modifying the other properties like size or style
+ </summary>
+	<param name="face">Name of the font to use</param>
+	<returns>true on success, false on failure</returns>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.SetSelectionSize(System.Int32)">
+	<summary>
+ Sets the font size only for the selected part of the rich text box
+ without modifying the other properties like font or style
+ </summary>
+	<param name="size">new point size to use</param>
+	<returns>true on success, false on failure</returns>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.FormatRangeDone">
+	<summary>
+ Free cached data from rich edit control after printing
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.InsertLink(System.String)">
+	<summary>
+ Insert a given text as a link into the RichTextBox at the current insert position.
+ </summary>
+	<param name="text">Text to be inserted</param>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.InsertLink(System.String,System.Int32)">
+	<summary>
+ Insert a given text at a given position as a link. 
+ </summary>
+	<param name="text">Text to be inserted</param>
+	<param name="position">Insert position</param>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.InsertLink(System.String,System.String)">
+	<summary>
+ Insert a given text at at the current input position as a link.
+ The link text is followed by a hash (#) and the given hyperlink text, both of
+ them invisible.
+ When clicked on, the whole link text and hyperlink string are given in the
+ LinkClickedEventArgs.
+ </summary>
+	<param name="text">Text to be inserted</param>
+	<param name="hyperlink">Invisible hyperlink string to be inserted</param>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.InsertLink(System.String,System.String,System.Int32)">
+	<summary>
+ Insert a given text at a given position as a link. The link text is followed by
+ a hash (#) and the given hyperlink text, both of them invisible.
+ When clicked on, the whole link text and hyperlink string are given in the
+ LinkClickedEventArgs.
+ </summary>
+	<param name="text">Text to be inserted</param>
+	<param name="hyperlink">Invisible hyperlink string to be inserted</param>
+	<param name="position">Insert position</param>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.SetSelectionLink(System.Boolean)">
+	<summary>
+ Set the current selection's link style
+ </summary>
+	<param name="link">true: set link style, false: clear link style</param>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.InsertImage(System.Drawing.Image)">
+	<summary>
+ Inserts an image into the RichTextBox.  The image is wrapped in a Windows
+ Format Metafile, because although Microsoft discourages the use of a WMF,
+ the RichTextBox (and even MS Word), wraps an image in a WMF before inserting
+ the image into a document.  The WMF is attached in HEX format (a string of
+ HEX numbers).
+ 
+ The RTF Specification v1.6 says that you should be able to insert bitmaps,
+ .jpegs, .gifs, .pngs, and Enhanced Metafiles (.emf) directly into an RTF
+ document without the WMF wrapper. This works fine with MS Word,
+ however, when you don't wrap images in a WMF, WordPad and
+ RichTextBoxes simply ignore them.  Both use the riched20.dll or msfted.dll.
+ </summary>
+	<remarks>
+ NOTE: The image is inserted wherever the caret is at the time of the call,
+ and if any text is selected, that text is replaced.
+ </remarks>
+	<param name="_image"></param>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.GetRtfImage(System.Drawing.Image)">
+	<summary>
+ Wraps the image in an Enhanced Metafile by drawing the image onto the
+ graphics context, then converts the Enhanced Metafile to a Windows
+ Metafile, and finally appends the bits of the Windows Metafile in HEX
+ to a string and returns the string.
+ </summary>
+	<param name="_image"></param>
+	<returns>
+ A string containing the bits of a Windows Metafile in HEX
+ </returns>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.GetImagePrefix(System.Drawing.Image)">
+	<summary>
+ Creates the RTF control string that describes the image being inserted.
+ This description (in this case) specifies that the image is an
+ MM_ANISOTROPIC metafile, meaning that both X and Y axes can be scaled
+ independently.  The control string also gives the images current dimensions,
+ and its target dimensions, so if you want to control the size of the
+ image being inserted, this would be the place to do it. The prefix should
+ have the form ...
+ 
+ {\pict\wmetafile8\picw[A]\pich[B]\picwgoal[C]\pichgoal[D]
+ 
+ where ...
+ 
+ A	= current width of the metafile in hundredths of millimeters (0.01mm)
+		= Image Width in Inches * Number of (0.01mm) per inch
+		= (Image Width in Pixels / Graphics Context's Horizontal Resolution) * 2540
+		= (Image Width in Pixels / Graphics.DpiX) * 2540
+ 
+ B	= current height of the metafile in hundredths of millimeters (0.01mm)
+		= Image Height in Inches * Number of (0.01mm) per inch
+		= (Image Height in Pixels / Graphics Context's Vertical Resolution) * 2540
+		= (Image Height in Pixels / Graphics.DpiX) * 2540
+ 
+ C	= target width of the metafile in twips
+		= Image Width in Inches * Number of twips per inch
+		= (Image Width in Pixels / Graphics Context's Horizontal Resolution) * 1440
+		= (Image Width in Pixels / Graphics.DpiX) * 1440
+ 
+ D	= target height of the metafile in twips
+		= Image Height in Inches * Number of twips per inch
+		= (Image Height in Pixels / Graphics Context's Horizontal Resolution) * 1440
+		= (Image Height in Pixels / Graphics.DpiX) * 1440
+	
+ </summary>
+	<remarks>
+ The Graphics Context's resolution is simply the current resolution at which
+ windows is being displayed.  Normally it's 96 dpi, but instead of assuming
+ I just added the code.
+ 
+ According to Ken Howe at pbdr.com, "Twips are screen-independent units
+ used to ensure that the placement and proportion of screen elements in
+ your screen application are the same on all display systems."
+ 
+ Units Used
+ ----------
+ 1 Twip = 1/20 Point
+ 1 Point = 1/72 Inch
+ 1 Twip = 1/1440 Inch
+ 
+ 1 Inch = 2.54 cm
+ 1 Inch = 25.4 mm
+ 1 Inch = 2540 (0.01)mm
+ </remarks>
+	<param name="_image"></param>
+	<returns></returns>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eRicherTextBox.GdipEmfToWmfBits(System.IntPtr,System.UInt32,System.Byte[],System.Int32,ESAR_Controls.UIControls.TextBox.eRicherTextBox.EmfToWmfBitsFlags)">
+	<summary>
+ Use the EmfToWmfBits function in the GDI+ specification to convert a 
+ Enhanced Metafile to a Windows Metafile
+ </summary>
+	<param name="_hEmf">
+ A handle to the Enhanced Metafile to be converted
+ </param>
+	<param name="_bufferSize">
+ The size of the buffer used to store the Windows Metafile bits returned
+ </param>
+	<param name="_buffer">
+ An array of bytes used to hold the Windows Metafile bits returned
+ </param>
+	<param name="_mappingMode">
+ The mapping mode of the image.  This control uses MM_ANISOTROPIC.
+ </param>
+	<param name="_flags">
+ Flags used to specify the format of the Windows Metafile returned
+ </param>
+</member><member name="F:ESAR_Controls.UIControls.DataGridView.eDataGridViewColumnSelector.MaxHeight">
+	<summary>
+ The max height of the popup
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.DataGridView.eDataGridViewColumnSelector.Width">
+	<summary>
+ The width of the popup
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.DataGridView.eDataGridViewColumnSelector.DataGridView">
+	<summary>
+ Gets or sets the DataGridView to which the DataGridViewColumnSelector is attached
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.DataGridView.eDataGridViewColumnSelector">
+	<summary>
+ Add column show/hide capability to a DataGridView. When user right-clicks 
+ the cell origin a popup, containing a list of checkbox and column names, is
+ shown. 
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Components.eFloatWindowAlphaMaker.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eFloatWindowAlphaMaker.StepCount">
+	<summary>
+ How many steps to take effect for destination opacity, the StepCount property must be in the range of 5 to 15.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eFloatWindowAlphaMaker.StepInterval">
+	<summary>
+ Gets or sets, the fade interval, the StepInterval property must be in the range of 10 to 300.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Components.eFloatWindowAlphaMaker.SetLayered(System.Boolean@)">
+	<summary>
+ Sets the current float window to layered window or clear its flag.
+ </summary>
+	<param name="isLayered">Currently float window layered flag</param>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Components.eFloatWindowAlphaMaker.SeekToOpacity(System.Byte)">
+	<summary>
+ Starts a new fading operation for specified opacity.
+ </summary>
+	<param name="opacity">Alpha value</param>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Components.eFloatWindowAlphaMaker.UpdateOpacity(System.Byte,System.Boolean)">
+	<summary>
+ Updates the float window's opacity.
+ </summary>
+	<param name="opacity">Alpha value</param>
+	<param name="isItRefreshed">If parameter is true, the currently float window will be refreshed; otherwise, does not perform an redraw operation.</param>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eFloatWindowAlphaMaker.IFloatWindowControl">
+	<summary>
+ Gets or sets, the active float window's IFloatWindowAlphaMembers interface.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.Components.eFloatWindowAlphaMaker.FadingOperationCompleted">
+	<summary>
+ Occurs when the fading operation is successfully completed.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.Button.eSplitGlassButton.Components">
+	<summary>
+ Required by the Form Designer Variable
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.#ctor">
+	<summary>
+ Create New Object of eSplitGlassButton and Initialize it.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.InitializeComponent">
+	<summary>
+ Initialize the eSplitGlassButton Components
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.Dispose(System.Boolean)">
+	<summary>
+ MBExplorer Overrides Dispose to CleanUp component list
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.OnCreateControl">
+	<summary>
+ Create Base for eSplitGlassButton
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.Button.eSplitGlassButton.MB_SplitLocation">
+	<summary>
+ Enum to Set Split Location for MBGlasButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.SplitLocation">
+	<summary>
+ Get or Set the Location to Split Button into Two Parts
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.ImageSize">
+	<summary>
+ Get or Set the Image Size for eSplitGlassButton
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.Button.eSplitGlassButton.MB_ShowBase">
+	<summary>
+ Enum for Base Visibility
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.ShowBase">
+	<summary>
+ Get or Set Base Visibility for eSplitGlassButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.Radius">
+	<summary>
+ Get or Set Corner Radius for eSplitGlassButton
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.Button.eSplitGlassButton.MB_GroupPos">
+	<summary>
+ Enum for Group Position of eSplitGlassButton
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.Button.eSplitGlassButton._grouppos">
+	<summary>
+ Get or Set Group Position for eSplitGlassButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.Arrow">
+	<summary>
+ Get or Set Arrow visibility of eSplitGlassButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.SplitButton">
+	<summary>
+ Get or Set Split Option for eSplitGlassButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.SplitDistance">
+	<summary>
+ Get or Set Split Distance for eSplitGlassButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.KeepPressed">
+	<summary>
+ Get or Set Button State of eSplitGlassButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.IsPressed">
+	<summary>
+ Get or Set State of eSplitGlassButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.MenuListPosition">
+	<summary>
+ Get ot Set DropDown Menu Position of eSplitGlassButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.BaseColor">
+	<summary>
+ Get or Set Base Color for eSplitGlassButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.OnColor">
+	<summary>
+ Get ot Set OnColor of eSplitGlassButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.PressColor">
+	<summary>
+ Get or Set Color when eSplitGlassButton is Pressed.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.BaseStrokeColor">
+	<summary>
+ Get or Set Base Stroke for eSplitGlassButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.OnStrokeColor">
+	<summary>
+ Get or Set OnStroke Color for eSplitGlassButton
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.PressStrokeColor">
+	<summary>
+ Get or Set PressStroke Color of eSplitGlassButton
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.GetColorIncreased(System.Drawing.Color,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Return Color with Increase Value
+ </summary>
+	<param name="color">The Value As System.Drawing.Color</param>
+	<param name="h">Hue Value As Integer</param>
+	<param name="s">Saturation Value As Integer</param>
+	<param name="b">Brightness Value As Integer</param>
+	<returns>Returns New Color</returns>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.GetColor(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Returns New Color From ARGB Values
+ </summary>
+	<param name="A">Alpha value as Integer</param>
+	<param name="R">Red value as integer</param>
+	<param name="G">Green value as Integer</param>
+	<param name="B">Blue value as Integer</param>
+	<returns>New Color</returns>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Handles eSplitGlassButton Paint
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.OnResize(System.EventArgs)">
+	<summary>
+ Handles eSplitGlassButton Resize
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.eSplitGlassButton_ContextMenuStripChanged(System.Object,System.EventArgs)">
+	<summary>
+ Hnadles ContaxtMenuStrip Rendering
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.FillGradients(System.Drawing.Graphics,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Handles Glowing of eSplitGlassButton
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.DrawText(System.Drawing.Graphics)">
+	<summary>
+ Draw Text on eSplitGlassButton
+ </summary>
+	<param name="g">G as Graphics</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.TextAlignment(System.Drawing.ContentAlignment)">
+	<summary>
+ Text Alignment of eSplitGlassButton
+ </summary>
+	<param name="textalign">TextAlignment Value</param>
+	<returns>String Format</returns>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.DrawArc(System.Drawing.Rectangle,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Draw arc for eSplitGlassButton
+ </summary>
+	<param name="re">R As Rectangle</param>
+	<param name="pa">Path As Graphics Path</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.DrawShadow(System.Drawing.Rectangle,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Draw Shadow for eSplitGlassButton
+ </summary>
+	<param name="re">R As Rectangle</param>
+	<param name="pa">Path As Graphics Path</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.DrawArrow(System.Drawing.Graphics)">
+	<summary>
+ Draw Arrow on eSplitGlassButton
+ </summary>
+	<param name="gr">graphics As Graphics</param>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.Button.eSplitGlassButton.GlowingingSpeed">
+	<summary>
+ Get or Set Fading Speeed of eSplitGlassButton
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.OnMouseEnter(System.EventArgs)">
+	<summary>
+ Handles Mouse Enter for eSplitGlassButton
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.OnMouseLeave(System.EventArgs)">
+	<summary>
+ Handles Mouse Leave for eSplitGlassButton
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.UpdateMouseLeave">
+	<summary>
+ Handles Mouse Leave for eSplitGlassButton
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles Mouse Down for eSplitGlassButton
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles Mouse Up for eSplitGlassButton
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eSplitGlassButton.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles Mouse Move for eSplitGlassButton
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.MBColor.#ctor(System.Drawing.Color)">
+	<summary>
+ Constructor for MBColor
+ </summary>
+	<param name="color">Color Value</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.MBColor.#ctor(System.UInt32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Constructor for MBColor
+ </summary>
+	<param name="a">Aplph value</param>
+	<param name="r">Red value</param>
+	<param name="g">Green value</param>
+	<param name="b">Blue value</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.MBMenuRendere.OnRenderMenuItemBackground(System.Windows.Forms.ToolStripItemRenderEventArgs)">
+	<summary>
+ Handles MenuItemBackground for eSplitGlassButton ContaxtMenuStrip
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.MBMenuRendere.OnRenderItemImage(System.Windows.Forms.ToolStripItemImageRenderEventArgs)">
+	<summary>
+ Handles RenderItemImage for eSplitGlassButton ContaxtMenuStrip
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.MBMenuRendere.DrawArc(System.Drawing.Rectangle,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Draw Arc for ContaxtMenuStripRenderer
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.MBMenuRendere.GetRendererColor(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Returns New Color for eSplitGlassButton ContextMenuStrip Renderer
+ </summary>
+	<param name="R">Red value as Integer</param>
+	<param name="G">Green value as Integer</param>
+	<param name="B">Blue value as Integer</param>
+	<returns>New Color</returns>
+</member><member name="F:ESAR_Controls.UIControls.DataGridView.eDataGridViewWithPaging.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewWithPaging.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eDataGridViewWithPaging.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ComboBox.eComboBoxDataGridView.components">
+	<summary>
+ Required designer variable.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ComboBox.eComboBoxDataGridView.Dispose(System.Boolean)">
+	<summary>
+ Clean up any resources being used.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ComboBox.eComboBoxDataGridView.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="P:ESAR_Controls.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ESAR_Controls.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ESAR_Controls.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eSearchTextBox.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:ESAR_Controls.UIControls.TextBox.eSearchTextBox.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.Button.eDDControl.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eDDControl.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eDDControl.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.eDropDownProgress.WndProc(System.Windows.Forms.Message@)">
+	<summary>
+ Uygulamaya gelecek windows mesajları burda işlenir.
+ </summary>
+	<param name="m">Windows mesaj parametresi</param>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.eDropDownProgress.DrawBorder(System.Windows.Forms.Message@,System.Int32,System.Int32)">
+	<summary>
+ Kontrolümüz için kenarlık çiziyoruz.
+ </summary>
+	<param name="message">Kontrolümüzün Win32 mesaj işleme komutu</param>
+	<param name="width">Kontrolümüzün genişlik değeri</param>
+	<param name="height">Kontrolümüzün yükseklik değeri</param>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.eDropDownProgress.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.eDropDownProgress.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.eDropDownProgress.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.GradientBackground.GradientChanged">
+	<summary>
+ Occurs when the sub properties changed of the BackgroundGradient property.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientBackground.IsBlendedForBackground">
+	<summary>
+ Determines whether the blended effect enable or not for progress background.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientBackground.ColorStart">
+	<summary>
+ Gets or Sets, the first background color.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientBackground.ColorEnd">
+	<summary>
+ Gets or Sets, the second background color.
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.Button.VistaConstants">
+	<summary>
+ Control style and notification constants
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.eForms.eFormChangedComponent.ResetDirtyFlags">
+	<summary>
+ Resets all the changed flags for the controls on the form
+ </summary>
+	<remarks>
+ You should reset the dirty flags when a record is saved, for example
+ </remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.eFormChangedComponent.ControlsThatHaveChanged">
+	<summary>
+ Returns the collection of controls that have changed since the last reset
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.eForms.eFormChangedComponent.CanExtend(System.Object)">
+	<summary>
+ Returns true if the given control can be extended by this component - i.e. if it can sensibly be printed
+ </summary>
+	<param name="extendee">The control being queried for extensibility</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.eFormChangedComponent.ChangeEventMonitoring.ControlToMonitor">
+	<summary>
+ The control that is being monitored for change events
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.eFormChangedComponent.ChangeEventMonitoring.Monitor">
+	<summary>
+ Whether or not to monitor this control for change events
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.eFormChangedComponent.ChangeEventMonitoring.ChangeEventToMonitor">
+	<summary>
+ The name of the event to monitor for changes
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>e.g. for a textbox t
+ </remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.eFormChangedComponent.ChangeEventMonitoring.ValueName">
+	<summary>
+ The name of the property that exposes the 'value' of the control
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.FormChangedEventArgs.ControlChanged">
+	<summary>
+ The control on the form that has changed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.FormChangedEventArgs.Changed">
+	<summary>
+ True if the control has changed, false if it has changed back to the last saved value
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:ESAR_Controls.UIControls.eForms.FormChangedEventArgs">
+	<summary>
+ Event arguments for the event raised when an item on a form is changed
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.eForms.FormDocker.#ctor(System.Windows.Forms.Form@,ESAR_Controls.UIControls.eForms.FormDocker.FormDockMode,System.Windows.Forms.Padding,System.Boolean,System.Boolean)">
+	<summary>
+ Constructor for FormDocker.
+ </summary>
+	<param name="Form">The form to dock.</param>
+	<param name="DockMode">Where to dock the form.</param>
+	<param name="Padding">The spacing between the form and the edge of the screen.</param>
+	<param name="AutoRefreshOnChange">Whether to refresh when a property is changed.</param>
+	<param name="RestoreOriginalLocation">Whether to restore the form to its previous location when undocked.</param>
+	<remarks></remarks>
+</member><member name="E:ESAR_Controls.UIControls.eForms.FormDocker.Refreshed">
+	<summary>
+ Occurs after the form's docking has been refreshed.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:ESAR_Controls.UIControls.eForms.FormDocker.DockModeChanged">
+	<summary>
+ Occurs when the dock mode is changed.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:ESAR_Controls.UIControls.eForms.FormDocker.DockChanged">
+	<summary>
+ Occurs when the form is docked or undocked.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:ESAR_Controls.UIControls.eForms.FormDocker.FormDockMode">
+	<summary>
+ Contains the different docking modes.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.FormDocker.DockMode">
+	<summary>
+ Where to dock the form.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.FormDocker.Dock">
+	<summary>
+ Whether the form is docked or not. Set to 'True' to dock the form.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.FormDocker.Form">
+	<summary>
+ The form to dock.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.FormDocker.Padding">
+	<summary>
+ The spacing between the form and the edge of the screen.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.FormDocker.AutoRefreshOnChange">
+	<summary>
+ Whether to refresh when a property is changed.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.FormDocker.OriginalLocation">
+	<summary>
+ The original location to restore to.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ESAR_Controls.UIControls.eForms.FormDocker.RestoreOriginalLocation">
+	<summary>
+ Whether to restore the form to its previous location when undocked.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.eForms.FormDocker.Refresh">
+	<summary>
+ Refreshes the docking. (Re-positions the form)
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.eForms.FormDocker.DockForm">
+	<summary>
+ Docks the form.
+ </summary>
+	<remarks>Equivalent to Dock = True</remarks>
+</member><member name="M:ESAR_Controls.UIControls.eForms.FormDocker.UndockForm">
+	<summary>
+ Undocks the form.
+ </summary>
+	<remarks>Equivalent to Dock = False</remarks>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eRadioButtonPanel.#ctor">
+	<summary>
+ RadioButtonPanel public constructor.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eRadioButtonPanel.AddCheckEventListeners">
+	<summary>
+ Hooks Check callback events of RadioButton objects within the panel to the RadioButtonPanel object.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eRadioButtonPanel.radioButton_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Event callback called when a RadioButton's Check property is changed.
+ </summary>
+	<param name="sender">Object(RadioButton)</param>
+	<param name="e">EventArgs</param>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eRadioButtonPanel.radioGroupBox_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Event callback called when a RadioGroupBox's Check property is changed.
+ </summary>
+	<param name="sender">Object(RadioGroupBox)</param>
+	<param name="e">EventArgs</param>
+</member><member name="T:ESAR_Controls.UIControls.GroupBox.eRadioButtonPanel">
+	<summary>
+ This class oversees the checkin/unchecking when mixing RadioButton objects with RadioGroupBox objects within the same container.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.DataGridView.eTimeControl.components">
+	<summary>
+ Required designer variable.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eTimeControl.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:ESAR_Controls.UIControls.DataGridView.eTimeControl.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Win32.User32.GetParent(System.IntPtr)">
+	<summary>
+ The GetParent function retrieves a handle to the specified window's parent or owner.
+ </summary>
+	<param name="hwnd">Handle to the window whose parent window handle is to be retrieved.</param>
+	<returns>If the window is a child window, the return value is a handle to the parent window. If the window is a top-level window, the return value is a handle to the owner window. If the window is a top-level unowned window or if the function fails, the return value is NULL.</returns>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Win32.User32.FindWindowEx(System.IntPtr,System.IntPtr,System.String,System.String)">
+	<summary>
+ The FindWindowEx function retrieves a handle to a window whose class name and window name match the specified strings. The function searches child windows, beginning with the one following the specified child window.
+ </summary>
+	<param name="hwndParent">Handle to the parent window whose child windows are to be searched.</param>
+	<param name="hwndChildAfter">Handle to a child window.</param>
+	<param name="lpszClass">Specifies class name.</param>
+	<param name="lpszWindow">Pointer to a null-terminated string that specifies the window name (the window's title).</param>
+	<returns>If the function succeeds, the return value is a handle to the window that has the specified class and window names.If the function fails, the return value is NULL.</returns>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Win32.User32.MoveWindow(System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ The MoveWindow function changes the position and dimensions of the specified window.
+ </summary>
+	<param name="hwnd">Handle to the window.</param>
+	<param name="X">Specifies the new position of the left side of the window.</param>
+	<param name="Y">Specifies the new position of the top of the window.</param>
+	<param name="nWidth">Specifies the new width of the window.</param>
+	<param name="nHeight">Specifies the new height of the window.</param>
+	<param name="bRepaint">If the bRepaint parameter is TRUE, the system sends the WM_PAINT message to the window procedure immediately after moving the window (that is, the MoveWindow function calls the UpdateWindow function). If bRepaint is FALSE, the application must explicitly invalidate or redraw any parts of the window and parent window that need redrawing.</param>
+	<returns>If the function succeeds, the return value is true.If the function fails, the return value is false.</returns>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Win32.User32.InvalidateRect(System.IntPtr,System.Drawing.Rectangle@,System.Boolean)">
+	<summary>
+ The InvalidateRect function adds a rectangle to the specified window's update region.
+ </summary>
+	<param name="hwnd">Handle to window.</param>
+	<param name="rect">Rectangle coordinates.</param>
+	<param name="bErase">Erase state.</param>
+	<returns>If the function succeeds, the return value is true.If the function fails, the return value is false.</returns>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Win32.User32.ValidateRect(System.IntPtr,System.Drawing.Rectangle@)">
+	<summary>
+ The ValidateRect function validates the client area within a rectangle by removing the rectangle from the update region of the specified window.
+ </summary>
+	<param name="hwnd">Handle to window.</param>
+	<param name="rect">Validation rectangle coordinates.</param>
+	<returns>If the function succeeds, the return value is true.If the function fails, the return value is false.</returns>
+</member><member name="P:ESAR_Controls.UIControls.TabControl.eTabStripItem.Selected">
+	<summary>
+ Gets and sets a value indicating if the page is selected.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStripItem.Dispose(System.Boolean)">
+	<summary>
+ Handles proper disposition of the tab page control.
+ </summary>
+	<param name="disposing"></param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStripItem.ToString">
+	<summary>
+ Return a string representation of page.
+ </summary>
+	<returns></returns>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.Design.eTabStripDesigner.GetHitTest(System.Drawing.Point)">
+	<summary>
+ Check HitTest on <see cref="T:ESAR_Controls.UIControls.TabControl.eTabStrip"/> control and
+ let the user click on close and menu buttons.
+ </summary>
+	<param name="point"></param>
+	<returns></returns>
+</member><member name="F:ESAR_Controls.UIControls.GroupBox.Controls.eGroupBoxConstants.SweepAngle">
+	<summary>The sweep angle of the arc.</summary>
+</member><member name="F:ESAR_Controls.UIControls.GroupBox.Controls.eGroupBoxConstants.MinControlHeight">
+	<summary>The minimum control height.</summary>
+</member><member name="F:ESAR_Controls.UIControls.GroupBox.Controls.eGroupBoxConstants.MinControlWidth">
+	<summary>The minimum control width.</summary>
+</member><member name="T:ESAR_Controls.UIControls.GroupBox.Controls.eGroupBoxConstants">
+	<summary>This class holds all GroupBox constants.</summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.IAlphaMaker.StepCount">
+	<summary>
+ How many steps to take effect for destination opacity, the StepCount property must be in the range of 5 to 15.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.IAlphaMaker.StepInterval">
+	<summary>
+ Gets or sets, the fade interval, the StepInterval property must be in the range of 10 to 300.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Components.IAlphaMaker.SetLayered(System.Boolean@)">
+	<summary>
+ Sets the current float window to layered window or clear its flag.
+ </summary>
+	<param name="isLayered">Currently float window layered flag</param>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Components.IAlphaMaker.SeekToOpacity(System.Byte)">
+	<summary>
+ Starts a new fading operation for specified opacity.
+ </summary>
+	<param name="opacity">Alpha value</param>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Components.IAlphaMaker.UpdateOpacity(System.Byte,System.Boolean)">
+	<summary>
+ Updates the float window's opacity.
+ </summary>
+	<param name="opacity">Alpha value</param>
+	<param name="isItRefreshed">If parameter is true, the currently float window will be refreshed; otherwise, does not perform an redraw operation.</param>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.IAlphaMaker.IFloatWindowControl">
+	<summary>
+ Gets or sets, the active float window's IFloatWindowAlphaMembers interface.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.Components.IAlphaMaker.FadingOperationCompleted">
+	<summary>
+ Occurs when the fading operation is successfully completed.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.IProgressColorizer.IsColorizerEnabled">
+	<summary>
+ Determines whether the colorizer effect is enable or not for progress bitmap.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.IProgressColorizer.IsTransparencyEnabled">
+	<summary>
+ Determines whether the transparency effect is visible or not for progress bitmap.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.IProgressColorizer.Red">
+	<summary>
+ Gets or Sets, the red color component value of the progress bitmap.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.IProgressColorizer.Green">
+	<summary>
+ Gets or Sets, the green color component value of the progress bitmap.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.IProgressColorizer.Blue">
+	<summary>
+ Gets or Sets, the blue color component value of the progress bitmap.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.IProgressColorizer.Alpha">
+	<summary>
+ Gets or Sets, the alpha color component value of the progress bitmap.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.#ctor">
+	<summary>
+ Initializes a new instance of the ToolStripEasyProgressBarItem class. 
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.ProgressBar">
+	<summary>
+ Gets the EasyProgressBar control that this ToolStripControlHost is hosting.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.Text">
+	<summary>
+ Gets or sets the text displayed on the <see cref="T:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem"/>.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.ForeColor">
+	<summary>
+ Gets or sets the foreground color of the hosted control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.Font">
+	<summary>
+ Gets or sets the font to be used on the hosted control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.DefaultSize">
+	<summary>
+ Gets the height and width of the ToolStripEasyProgressBarItem in pixels.
+ </summary>
+	<value>
+ Type: <see cref="T:System.Drawing.Size"/>
+ A Point value representing the height and width.
+ </value>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.DefaultMargin">
+	<summary>
+ Gets the spacing between the <see cref="T:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem"/> and adjacent items.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.OnOwnerChanged(System.EventArgs)">
+	<summary>
+ Raises the OwnerChanged event. 
+ </summary>
+	<param name="e">An EventArgs that contains the event data.</param>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.ProgressGradient">
+	<summary>
+ You can change the progress appearance from here.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.BackgroundGradient">
+	<summary>
+ You can change the background appearance from here.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.ProgressColorizer">
+	<summary>
+ You can change the color components of the progress bitmap[RGBA Colorizer for progress indicator].
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.DigitBoxGradient">
+	<summary>
+ You can change the background appearance of the DigitBox rectangle from here.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.Value">
+	<summary>
+ Gets or Sets, the current progress value of the control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.Minimum">
+	<summary>
+ Gets or Sets, the minimum progress value of the control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.Maximum">
+	<summary>
+ Gets or Sets, the maximum progress value of the control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.IsPaintBorder">
+	<summary>
+ Determines whether the control's border is draw or not.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.IsDigitDrawEnabled">
+	<summary>
+ Determines whether the digital number drawing is enabled or not.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.ShowPercentage">
+	<summary>
+ Determines whether the percentage text is show or hide.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.DisplayFormat">
+	<summary>
+ Display text formatting for progressbar value.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.BorderColor">
+	<summary>
+ Gets or Sets, the control's border color from here.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.ControlBorderStyle">
+	<summary>
+ Gets or Sets, the current border style of the ProgressBar control.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem.ValueChanged">
+	<summary>
+ Occurs when the progress value changed of the control.
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.ProgressBar.ToolStripEasyProgressBarItem">
+	<summary>
+ Represents a custom progressbar control for all strip controls.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eRadioGroupBox.#ctor">
+	<summary>
+ RadioGroupBox public constructor.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eRadioGroupBox.Text">
+	<summary>
+ The text associated with the control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eRadioGroupBox.Checked">
+	<summary>
+ Indicates whether the radio button is checked or not.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eRadioGroupBox.DisableChildrenIfUnchecked">
+	<summary>
+ Determines if child controls of the GroupBox are disabled when the CheckBox is unchecked.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.GroupBox.eRadioGroupBox.CheckedChanged">
+	<summary>
+ Occurs when the 'checked' property changes value.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eRadioGroupBox.OnCheckedChanged(System.EventArgs)">
+	<summary>
+ Raises the System.Windows.Forms.
+ </summary>
+	<param name="e">An System.EventArgs that contains the event data.</param>
+</member><member name="T:ESAR_Controls.UIControls.GroupBox.eRadioGroupBox">
+	<summary>
+ RadioGroupBox is a GroupBox with an embeded RadioButton.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.TaskStarted">
+	<summary>
+ Event raised when the task is succesfully started.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.TaskStopped">
+	<summary>
+ Event raised when the task is succesfully stopped.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.TaskCompleted">
+	<summary>
+ Event raised when the task operation is succesfully completed.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.TaskProgress">
+	<summary>
+ Represents an event which occurs when the index of the active frame changed.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.FPS">
+	<summary>
+ Gets or Sets the frame per second value of the specified image.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.AnimatedGif">
+	<summary>
+ Gets or Sets the image to be animated.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.FrameCount">
+	<summary>
+ Gets the total number of frames of the specified image.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.CurrentFrame">
+	<summary>
+ Gets the index of the active frame.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.IsReverseEnabled">
+	<summary>
+ Determines whether the animated gif should play backwards when it reaches the end of the frames.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.IsWorking">
+	<summary>
+ If task monitor is running, returns true otherwise; false.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.StepCount">
+	<summary>
+ The StepCount property must be in the range of 0 to 100 (Frame count of the animated image) '0' means is looped.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.StepInterval">
+	<summary>
+ The StepInterval property must be in the range of 10 to 300 (Millisecond species).
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.TaskLog">
+	<summary>
+ Gets the currently status of the task thread.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.CancelCheckInterval">
+	<summary>
+ How often the thread checks to see if a cancellation message has been heeded(A number of seconds).
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.CancelWaitTime">
+	<summary>
+ How long the thread will wait (in total) before aborting a thread that hasn't responded to
+ the cancellation message. TimeSpan.Zero means polite stops are not enabled.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.Start(System.Windows.Forms.Control)">
+	<summary>
+ Start the new operation.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.StopTask">
+	<summary>
+ Stops the currently running task.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.Components.eAniEasyProgressTaskManager.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.Components.ReportTaskProgressEventArgs.GetActiveFrameImage">
+	<summary>
+ Gets or Sets the index of the active frame image.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.Button.eGlassButton.components">
+	<summary>
+ Required designer variable.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.Dispose(System.Boolean)">
+	<summary>
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:ESAR_Controls.UIControls.Button.eGlassButton.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.PictureBox.ePictureBox.LoadImage(System.Windows.Forms.Control,System.Int64)">
+	<summary>
+ Browses for an Image that it loads into the supplied image control
+ the image should be equal to or below the set file size limit
+ </summary>
+	<param name="sourceControl"></param>
+	<param name="fileSizeLimit"></param>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.PictureBox.ePictureBox.LoadImage(System.Windows.Forms.Control)">
+	<summary>
+ Browses for an Image that it loads into the supplied image control
+ </summary>
+	<param name="sourceControl"></param>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.PictureBox.ePictureBox.ReadBytes(System.String)">
+	<summary>
+ Returns bytes of a file from the supplied path
+ </summary>
+	<param name="path"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.PictureBox.ePictureBox.ReadBytes(System.Drawing.Image)">
+	<summary>
+ Returns bytes of the supplied image
+ </summary>
+	<param name="data"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.PictureBox.ePictureBox.SaveImage(System.Drawing.Image,System.String)">
+	<summary>
+ Opens a save file dialog to save the supplied image as supplied file name
+ </summary>
+	<param name="data"></param>
+	<param name="fileName"></param>
+	<remarks></remarks>
+</member><member name="M:ESAR_Controls.UIControls.PictureBox.ePictureBox.SaveImage(System.Drawing.Image)">
+	<summary>
+ Opens a save file dialog to save the supplied image as Photo
+ </summary>
+	<param name="data"></param>
+	<remarks></remarks>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.ColorizerProgress.ProgressColorizerChanged">
+	<summary>
+ Occurs when the sub properties changed of the ProgressColorizer property.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ColorizerProgress.IsColorizerEnabled">
+	<summary>
+ Determines whether the colorizer effect is enable or not for progress bitmap.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ColorizerProgress.IsTransparencyEnabled">
+	<summary>
+ Determines whether the transparency effect is visible or not for progress bitmap.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ColorizerProgress.Red">
+	<summary>
+ The red color component property must be in the range of 0 to 255.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ColorizerProgress.Green">
+	<summary>
+ The green color component property must be in the range of 0 to 255.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ColorizerProgress.Blue">
+	<summary>
+ The blue color component property must be in the range of 0 to 255.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.ColorizerProgress.Alpha">
+	<summary>
+ This property must be in the range of 50 to 255.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.ColorizerProgressEditor.GetPaintValueSupported(System.ComponentModel.ITypeDescriptorContext)">
+	<summary>
+ Indicates whether the specified context supports painting a representation of an object's value within the specified context.
+ </summary>
+	<param name="context">An ITypeDescriptorContext that can be used to gain additional context information.</param>
+	<returns>Normally, true if PaintValue is implemented; otherwise, false.But, in this scope returns false.</returns>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarColumn.HoverGradient">
+	<summary>
+ You can change the hover cell gradient appearance from here.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarColumn.ProgressGradient">
+	<summary>
+ You can change the progress appearance from here.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarColumn.BackgroundGradient">
+	<summary>
+ You can change the background appearance from here.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarColumn.ProgressColorizer">
+	<summary>
+ You can change the color components of the progress bitmap[RGBA Colorizer for progress indicator].
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarColumn.Minimum">
+	<summary>
+ Gets or Sets, the minimum progress value of the control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarColumn.Maximum">
+	<summary>
+ Gets or Sets, the maximum progress value of the control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarColumn.IsPaintBorder">
+	<summary>
+ Determines whether the control's border is draw or not.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarColumn.ShowPercentage">
+	<summary>
+ Determines whether the percentage text is show or hide.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarColumn.BorderColor">
+	<summary>
+ Gets or Sets, the control's border color from here.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarColumn.ControlBorderStyle">
+	<summary>
+ Gets or Sets, the current border style of the ProgressBar cell.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarColumn.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.GradientDigitBox.GradientChanged">
+	<summary>
+ Occurs when the sub properties changed of the DigitBoxGradient property.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientDigitBox.IsBlendedForBackground">
+	<summary>
+ Determines whether the blended effect enable or not for DigitBox background.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientDigitBox.ColorStart">
+	<summary>
+ Gets or Sets, the first background color of the DigitBox rectangle.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientDigitBox.ColorEnd">
+	<summary>
+ Gets or Sets, the second background color of the DigitBox rectangle.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientDigitBox.BorderColor">
+	<summary>
+ Gets or Sets, the border color of the DigitBox rectangle.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientDigitBox.DigitalNumberSide">
+	<summary>
+ Gets or Sets, the layouts of the DigitBox rectangle on the control.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.HitTest(System.Drawing.Point)">
+	<summary>
+ Returns hit test results
+ </summary>
+	<param name="pt"></param>
+	<returns></returns>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.AddTab(ESAR_Controls.UIControls.TabControl.eTabStripItem)">
+	<summary>
+ Add a <see cref="T:ESAR_Controls.UIControls.TabControl.eTabStripItem"/> to this control without selecting it.
+ </summary>
+	<param name="tabItem"></param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.AddTab(ESAR_Controls.UIControls.TabControl.eTabStripItem,System.Boolean)">
+	<summary>
+ Add a <see cref="T:ESAR_Controls.UIControls.TabControl.eTabStripItem"/> to this control.
+ User can make the currently selected item or not.
+ </summary>
+	<param name="tabItem"></param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.RemoveTab(ESAR_Controls.UIControls.TabControl.eTabStripItem)">
+	<summary>
+ Remove a <see cref="T:ESAR_Controls.UIControls.TabControl.eTabStripItem"/> from this control.
+ </summary>
+	<param name="tabItem"></param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.GetTabItemByPoint(System.Drawing.Point)">
+	<summary>
+ Get a <see cref="T:ESAR_Controls.UIControls.TabControl.eTabStripItem"/> at provided point.
+ If no item was found, returns null value.
+ </summary>
+	<param name="pt"></param>
+	<returns></returns>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.ShowMenu">
+	<summary>
+ Display items menu
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.OnTabStripItemClosing(ESAR_Controls.UIControls.TabControl.TabStripItemClosingEventArgs)">
+	<summary>
+ Fires <see cref="E:ESAR_Controls.UIControls.TabControl.eTabStrip.TabStripItemClosing"/> event.
+ </summary>
+	<param name="e"></param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.OnTabStripItemClosed(System.EventArgs)">
+	<summary>
+ Fires <see cref="E:ESAR_Controls.UIControls.TabControl.eTabStrip.TabStripItemClosed"/> event.
+ </summary>
+	<param name="e"></param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.OnMenuItemsLoading(System.ComponentModel.HandledEventArgs)">
+	<summary>
+ Fires <see cref="E:ESAR_Controls.UIControls.TabControl.eTabStrip.MenuItemsLoading"/> event.
+ </summary>
+	<param name="e"></param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.OnMenuItemsLoaded(System.EventArgs)">
+	<summary>
+ Fires <see cref="E:ESAR_Controls.UIControls.TabControl.eTabStrip.MenuItemsLoaded"/> event.
+ </summary>
+	<param name="e"></param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.OnTabStripItemChanged(ESAR_Controls.UIControls.TabControl.TabStripItemChangedEventArgs)">
+	<summary>
+ Fires <see cref="E:ESAR_Controls.UIControls.TabControl.eTabStrip.TabStripItemSelectionChanged"/> event.
+ </summary>
+	<param name="e"></param>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.OnMenuItemsLoad(System.EventArgs)">
+	<summary>
+ Loads menu items based on <see cref="T:ESAR_Controls.UIControls.TabControl.eTabStripItem"/>s currently added
+ to this control.
+ </summary>
+	<param name="e"></param>
+</member><member name="P:ESAR_Controls.UIControls.TabControl.eTabStrip.Controls">
+	<summary>
+ DesignerSerializationVisibility
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.TabControl.eTabStrip.Dispose(System.Boolean)">
+	<summary>
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+</summary>
+	<filterpriority>2</filterpriority>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox.#ctor">
+	<summary>
+ CheckGroupBox public constructor.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox.Text">
+	<summary>
+ The text associated with the control.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox.Checked">
+	<summary>
+ Indicates whether the component is checked or not.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox.CheckState">
+	<summary>
+ Indicates the state of the component.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox.DisableChildrenIfUnchecked">
+	<summary>
+ Determines if child controls of the GroupBox are disabled when the CheckBox is unchecked.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox.CheckedChanged">
+	<summary>
+ Occurs whenever the Checked property of the CheckBox is changed.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox.CheckStateChanged">
+	<summary>
+ Occurs whenever the CheckState property of the CheckBox is changed.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox.OnCheckedChanged(System.EventArgs)">
+	<summary>
+ Raises the System.Windows.Forms.CheckBox.checkBox_CheckedChanged event.
+ </summary>
+	<param name="e">An System.EventArgs that contains the event data.</param>
+</member><member name="M:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox.OnCheckStateChanged(System.EventArgs)">
+	<summary>
+ Raises the System.Windows.Forms.CheckBox.CheckStateChanged event.
+ </summary>
+	<param name="e">An System.EventArgs that contains the event data.</param>
+</member><member name="T:ESAR_Controls.UIControls.GroupBox.eCheckGroupBox">
+	<summary>
+ CheckGroupBox is a GroupBox with an embeded CheckBox.
+ </summary>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarSplashForm.FrameChanged">
+	<summary>
+ Represents an event which occurs when the index of the active frame changed.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarSplashForm.EasyProgressTaskManager">
+	<summary>
+ Gets or Sets the task manager for painting this control.
+ </summary>
+</member><member name="M:ESAR_Controls.UIControls.ProgressBar.EasyProgressBarSplashForm.Dispose(System.Boolean)">
+	<summary>
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="E:ESAR_Controls.UIControls.ProgressBar.GradientHover.GradientChanged">
+	<summary>
+ Occurs when the sub properties changed of the HoverGradient property.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientHover.ColorStart">
+	<summary>
+ Gets or Sets the first hover cell color.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientHover.ColorEnd">
+	<summary>
+ Gets or Sets the second hover cell color.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientHover.HoverForeColor">
+	<summary>
+ Gets or Sets the hover cell text color.
+ </summary>
+</member><member name="P:ESAR_Controls.UIControls.ProgressBar.GradientHover.GradientStyle">
+	<summary>
+ Gets or Sets the hover gradient cell style.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.SetWindowPosZ.HWND_TOP">
+	<summary>
+ Specified HWND_TOP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.SetWindowPosZ.HWND_BOTTOM">
+	<summary>
+ Specified HWND_BOTTOM enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.SetWindowPosZ.HWND_TOPMOST">
+	<summary>
+ Specified HWND_TOPMOST enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.SetWindowPosZ.HWND_NOTOPMOST">
+	<summary>
+ Specified HWND_NOTOPMOST enumeration value.
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.ProgressBar.Win32.User32.SetWindowPosZ">
+	<summary>
+ Specifies values from SetWindowPosZ enumeration.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.RedrawWindowFlags.Invalidate">
+	<summary>
+ Invalidates the rectangle or region that you specify in lprcUpdate or hrgnUpdate.
+ You can set only one of these parameters to a non-NULL value. If both are NULL, RDW_INVALIDATE invalidates the entire window.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.RedrawWindowFlags.InternalPaint">
+	<summary>Causes the OS to post a WM_PAINT message to the window regardless of whether a portion of the window is invalid.</summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.RedrawWindowFlags.Erase">
+	<summary>
+ Causes the window to receive a WM_ERASEBKGND message when the window is repainted.
+ Specify this value in combination with the RDW_INVALIDATE value; otherwise, RDW_ERASE has no effect.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.RedrawWindowFlags.Validate">
+	<summary>
+ Validates the rectangle or region that you specify in lprcUpdate or hrgnUpdate.
+ You can set only one of these parameters to a non-NULL value. If both are NULL, RDW_VALIDATE validates the entire window.
+ This value does not affect internal WM_PAINT messages.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.RedrawWindowFlags.NoErase">
+	<summary>Suppresses any pending WM_ERASEBKGND messages.</summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.RedrawWindowFlags.NoChildren">
+	<summary>Excludes child windows, if any, from the repainting operation.</summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.RedrawWindowFlags.AllChildren">
+	<summary>Includes child windows, if any, in the repainting operation.</summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.RedrawWindowFlags.UpdateNow">
+	<summary>Causes the affected windows, which you specify by setting the RDW_ALLCHILDREN and RDW_NOCHILDREN values, to receive WM_ERASEBKGND and WM_PAINT messages before the RedrawWindow returns, if necessary.</summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.RedrawWindowFlags.EraseNow">
+	<summary>
+ Causes the affected windows, which you specify by setting the RDW_ALLCHILDREN and RDW_NOCHILDREN values, to receive WM_ERASEBKGND messages before RedrawWindow returns, if necessary.
+ The affected windows receive WM_PAINT messages at the ordinary time.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NULL">
+	<summary>
+ Specified WM_NULL enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CREATE">
+	<summary>
+ Specified WM_CREATE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_DESTROY">
+	<summary>
+ Specified WM_DESTROY enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MOVE">
+	<summary>
+ Specified WM_MOVE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SIZE">
+	<summary>
+ Specified WM_SIZE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_ACTIVATE">
+	<summary>
+ Specified WM_ACTIVATE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SETFOCUS">
+	<summary>
+ Specified WM_SETFOCUS enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_KILLFOCUS">
+	<summary>
+ Specified WM_KILLFOCUS enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_ENABLE">
+	<summary>
+ Specified WM_ENABLE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SETREDRAW">
+	<summary>
+ Specified WM_SETREDRAW enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SETTEXT">
+	<summary>
+ Specified WM_SETTEXT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_GETTEXT">
+	<summary>
+ Specified WM_GETTEXT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_GETTEXTLENGTH">
+	<summary>
+ Specified WM_GETTEXTLENGTH enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_PAINT">
+	<summary>
+ Specified WM_PAINT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CLOSE">
+	<summary>
+ Specified WM_CLOSE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_QUERYENDSESSION">
+	<summary>
+ Specified WM_QUERYENDSESSION enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_QUIT">
+	<summary>
+ Specified WM_QUIT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_QUERYOPEN">
+	<summary>
+ Specified WM_QUERYOPEN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_ERASEBKGND">
+	<summary>
+ Specified WM_ERASEBKGND enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SYSCOLORCHANGE">
+	<summary>
+ Specified WM_SYSCOLORCHANGE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_ENDSESSION">
+	<summary>
+ Specified WM_ENDSESSION enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SHOWWINDOW">
+	<summary>
+ Specified WM_SHOWWINDOW enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_WININICHANGE">
+	<summary>
+ Specified WM_WININICHANGE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SETTINGCHANGE">
+	<summary>
+ Specified WM_SETTINGCHANGE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_DEVMODECHANGE">
+	<summary>
+ Specified WM_DEVMODECHANGE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_ACTIVATEAPP">
+	<summary>
+ Specified WM_ACTIVATEAPP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_FONTCHANGE">
+	<summary>
+ Specified WM_FONTCHANGE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_TIMECHANGE">
+	<summary>
+ Specified WM_TIMECHANGE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CANCELMODE">
+	<summary>
+ Specified WM_CANCELMODE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SETCURSOR">
+	<summary>
+ Specified WM_SETCURSOR enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MOUSEACTIVATE">
+	<summary>
+ Specified WM_MOUSEACTIVATE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CHILDACTIVATE">
+	<summary>
+ Specified WM_CHILDACTIVATE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_QUEUESYNC">
+	<summary>
+ Specified WM_QUEUESYNC enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_GETMINMAXINFO">
+	<summary>
+ Specified WM_GETMINMAXINFO enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_PAINTICON">
+	<summary>
+ Specified WM_PAINTICON enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_ICONERASEBKGND">
+	<summary>
+ Specified WM_ICONERASEBKGND enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NEXTDLGCTL">
+	<summary>
+ Specified WM_NEXTDLGCTL enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SPOOLERSTATUS">
+	<summary>
+ Specified WM_SPOOLERSTATUS enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_DRAWITEM">
+	<summary>
+ Specified WM_DRAWITEM enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MEASUREITEM">
+	<summary>
+ Specified WM_MEASUREITEM enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_DELETEITEM">
+	<summary>
+ Specified WM_DELETEITEM enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_VKEYTOITEM">
+	<summary>
+ Specified WM_VKEYTOITEM enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CHARTOITEM">
+	<summary>
+ Specified WM_CHARTOITEM enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SETFONT">
+	<summary>
+ Specified WM_SETFONT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_GETFONT">
+	<summary>
+ Specified WM_GETFONT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SETHOTKEY">
+	<summary>
+ Specified WM_SETHOTKEY enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_GETHOTKEY">
+	<summary>
+ Specified WM_GETHOTKEY enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_QUERYDRAGICON">
+	<summary>
+ Specified WM_QUERYDRAGICON enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_COMPAREITEM">
+	<summary>
+ Specified WM_COMPAREITEM enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_GETOBJECT">
+	<summary>
+ Specified WM_GETOBJECT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_COMPACTING">
+	<summary>
+ Specified WM_COMPACTING enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_COMMNOTIFY">
+	<summary>
+ Specified WM_COMMNOTIFY enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_WINDOWPOSCHANGING">
+	<summary>
+ Specified WM_WINDOWPOSCHANGING enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_WINDOWPOSCHANGED">
+	<summary>
+ Specified WM_WINDOWPOSCHANGED enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_POWER">
+	<summary>
+ Specified WM_POWER enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_COPYDATA">
+	<summary>
+ Specified WM_COPYDATA enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CANCELJOURNAL">
+	<summary>
+ Specified WM_CANCELJOURNAL enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NOTIFY">
+	<summary>
+ Specified WM_NOTIFY enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_INPUTLANGCHANGEREQUEST">
+	<summary>
+ Specified WM_INPUTLANGCHANGEREQUEST enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_INPUTLANGCHANGE">
+	<summary>
+ Specified WM_INPUTLANGCHANGE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_TCARD">
+	<summary>
+ Specified WM_TCARD enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_HELP">
+	<summary>
+ Specified WM_HELP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_USERCHANGED">
+	<summary>
+ Specified WM_USERCHANGED enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NOTIFYFORMAT">
+	<summary>
+ Specified WM_NOTIFYFORMAT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CONTEXTMENU">
+	<summary>
+ Specified WM_CONTEXTMENU enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_STYLECHANGING">
+	<summary>
+ Specified WM_STYLECHANGING enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_STYLECHANGED">
+	<summary>
+ Specified WM_STYLECHANGED enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_DISPLAYCHANGE">
+	<summary>
+ Specified WM_DISPLAYCHANGE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_GETICON">
+	<summary>
+ Specified WM_GETICON enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SETICON">
+	<summary>
+ Specified WM_SETICON enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCCREATE">
+	<summary>
+ Specified WM_NCCREATE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCDESTROY">
+	<summary>
+ Specified VK_RMENU enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCCALCSIZE">
+	<summary>
+ Specified WM_NCCALCSIZE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCHITTEST">
+	<summary>
+ Specified WM_NCHITTEST enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCPAINT">
+	<summary>
+ Specified WM_NCPAINT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCACTIVATE">
+	<summary>
+ Specified WM_NCACTIVATE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_GETDLGCODE">
+	<summary>
+ Specified WM_GETDLGCODE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SYNCPAINT">
+	<summary>
+ Specified WM_SYNCPAINT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCMOUSEMOVE">
+	<summary>
+ Specified WM_NCMOUSEMOVE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCLBUTTONDOWN">
+	<summary>
+ Specified WM_NCLBUTTONDOWN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCLBUTTONUP">
+	<summary>
+ Specified WM_NCLBUTTONUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCLBUTTONDBLCLK">
+	<summary>
+ Specified WM_NCLBUTTONDBLCLK enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCRBUTTONDOWN">
+	<summary>
+ Specified WM_NCRBUTTONDOWN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCRBUTTONUP">
+	<summary>
+ Specified WM_NCRBUTTONUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCRBUTTONDBLCLK">
+	<summary>
+ Specified WM_NCRBUTTONDBLCLK enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCMBUTTONDOWN">
+	<summary>
+ Specified WM_NCMBUTTONDOWN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCMBUTTONUP">
+	<summary>
+ Specified WM_NCMBUTTONUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCMBUTTONDBLCLK">
+	<summary>
+ Specified WM_NCMBUTTONDBLCLK enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCXBUTTONDOWN">
+	<summary>
+ Specified WM_NCXBUTTONDOWN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NCXBUTTONUP">
+	<summary>
+ Specified WM_NCXBUTTONUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_KEYDOWN">
+	<summary>
+ Specified WM_KEYDOWN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_KEYUP">
+	<summary>
+ Specified WM_KEYUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CHAR">
+	<summary>
+ Specified WM_CHAR enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_DEADCHAR">
+	<summary>
+ Specified WM_DEADCHAR enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SYSKEYDOWN">
+	<summary>
+ Specified WM_SYSKEYDOWN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SYSKEYUP">
+	<summary>
+ Specified WM_SYSKEYUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SYSCHAR">
+	<summary>
+ Specified WM_SYSCHAR enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SYSDEADCHAR">
+	<summary>
+ Specified WM_SYSDEADCHAR enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_KEYLAST">
+	<summary>
+ Specified WM_KEYLAST enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_STARTCOMPOSITION">
+	<summary>
+ Specified WM_IME_STARTCOMPOSITION enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_ENDCOMPOSITION">
+	<summary>
+ Specified WM_IME_ENDCOMPOSITION enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_COMPOSITION">
+	<summary>
+ Specified WM_IME_COMPOSITION enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_KEYLAST">
+	<summary>
+ Specified WM_IME_KEYLAST enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_INITDIALOG">
+	<summary>
+ Specified WM_INITDIALOG enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_COMMAND">
+	<summary>
+ Specified WM_COMMAND enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SYSCOMMAND">
+	<summary>
+ Specified WM_SYSCOMMAND enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_TIMER">
+	<summary>
+ Specified WM_TIMER enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_HSCROLL">
+	<summary>
+ Specified WM_HSCROLL enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_VSCROLL">
+	<summary>
+ Specified WM_VSCROLL enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_INITMENU">
+	<summary>
+ Specified WM_INITMENU enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_INITMENUPOPUP">
+	<summary>
+ Specified WM_INITMENUPOPUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MENUSELECT">
+	<summary>
+ Specified WM_MENUSELECT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MENUCHAR">
+	<summary>
+ Specified WM_MENUCHAR enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_ENTERIDLE">
+	<summary>
+ Specified WM_ENTERIDLE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MENURBUTTONUP">
+	<summary>
+ Specified WM_MENURBUTTONUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MENUDRAG">
+	<summary>
+ Specified WM_MENUDRAG enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MENUGETOBJECT">
+	<summary>
+ Specified WM_MENUGETOBJECT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_UNINITMENUPOPUP">
+	<summary>
+ Specified WM_UNINITMENUPOPUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MENUCOMMAND">
+	<summary>
+ Specified WM_MENUCOMMAND enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CTLCOLORMSGBOX">
+	<summary>
+ Specified WM_CTLCOLORMSGBOX enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CTLCOLOREDIT">
+	<summary>
+ Specified WM_CTLCOLOREDIT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CTLCOLORLISTBOX">
+	<summary>
+ Specified WM_CTLCOLORLISTBOX enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CTLCOLORBTN">
+	<summary>
+ Specified WM_CTLCOLORBTN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CTLCOLORDLG">
+	<summary>
+ Specified WM_CTLCOLORDLG enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CTLCOLORSCROLLBAR">
+	<summary>
+ Specified WM_CTLCOLORSCROLLBAR enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CTLCOLORSTATIC">
+	<summary>
+ Specified WM_CTLCOLORSTATIC enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MOUSEMOVE">
+	<summary>
+ Specified WM_MOUSEMOVE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_LBUTTONDOWN">
+	<summary>
+ Specified WM_LBUTTONDOWN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_LBUTTONUP">
+	<summary>
+ Specified WM_LBUTTONUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_LBUTTONDBLCLK">
+	<summary>
+ Specified WM_LBUTTONDBLCLK enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_RBUTTONDOWN">
+	<summary>
+ Specified WM_RBUTTONDOWN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_RBUTTONUP">
+	<summary>
+ Specified WM_RBUTTONUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_RBUTTONDBLCLK">
+	<summary>
+ Specified WM_RBUTTONDBLCLK enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MBUTTONDOWN">
+	<summary>
+ Specified WM_MBUTTONDOWN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MBUTTONUP">
+	<summary>
+ Specified WM_MBUTTONUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MBUTTONDBLCLK">
+	<summary>
+ Specified WM_MBUTTONDBLCLK enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MOUSEWHEEL">
+	<summary>
+ Specified WM_MOUSEWHEEL enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_XBUTTONDOWN">
+	<summary>
+ Specified WM_XBUTTONDOWN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_XBUTTONUP">
+	<summary>
+ Specified WM_XBUTTONUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_XBUTTONDBLCLK">
+	<summary>
+ Specified WM_XBUTTONDBLCLK enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_PARENTNOTIFY">
+	<summary>
+ Specified WM_PARENTNOTIFY enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_ENTERMENULOOP">
+	<summary>
+ Specified WM_ENTERMENULOOP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_EXITMENULOOP">
+	<summary>
+ Specified WM_EXITMENULOOP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_NEXTMENU">
+	<summary>
+ Specified WM_NEXTMENU enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SIZING">
+	<summary>
+ Specified WM_SIZING enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CAPTURECHANGED">
+	<summary>
+ Specified WM_CAPTURECHANGED enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MOVING">
+	<summary>
+ Specified WM_MOVING enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_DEVICECHANGE">
+	<summary>
+ Specified WM_DEVICECHANGE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MDICREATE">
+	<summary>
+ Specified WM_MDICREATE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MDIDESTROY">
+	<summary>
+ Specified WM_MDIDESTROY enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MDIACTIVATE">
+	<summary>
+ Specified WM_MDIACTIVATE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MDIRESTORE">
+	<summary>
+ Specified WM_MDIRESTORE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MDINEXT">
+	<summary>
+ Specified WM_MDINEXT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MDIMAXIMIZE">
+	<summary>
+ Specified WM_MDIMAXIMIZE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MDITILE">
+	<summary>
+ Specified WM_MDITILE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MDICASCADE">
+	<summary>
+ Specified WM_MDICASCADE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MDIICONARRANGE">
+	<summary>
+ Specified WM_MDIICONARRANGE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MDIGETACTIVE">
+	<summary>
+ Specified WM_MDIGETACTIVE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MDISETMENU">
+	<summary>
+ Specified WM_MDISETMENU enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_ENTERSIZEMOVE">
+	<summary>
+ Specified WM_ENTERSIZEMOVE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_EXITSIZEMOVE">
+	<summary>
+ Specified WM_EXITSIZEMOVE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_DROPFILES">
+	<summary>
+ Specified WM_DROPFILES enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MDIREFRESHMENU">
+	<summary>
+ Specified WM_MDIREFRESHMENU enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_SETCONTEXT">
+	<summary>
+ Specified WM_IME_SETCONTEXT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_NOTIFY">
+	<summary>
+ Specified WM_IME_NOTIFY enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_CONTROL">
+	<summary>
+ Specified WM_IME_CONTROL enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_COMPOSITIONFULL">
+	<summary>
+ Specified WM_IME_COMPOSITIONFULL enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_SELECT">
+	<summary>
+ Specified WM_IME_SELECT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_CHAR">
+	<summary>
+ Specified WM_IME_CHAR enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_REQUEST">
+	<summary>
+ Specified WM_IME_REQUEST enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_KEYDOWN">
+	<summary>
+ Specified WM_IME_KEYDOWN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_IME_KEYUP">
+	<summary>
+ Specified WM_IME_KEYUP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_MOUSEHOVER">
+	<summary>
+ Specified WM_MOUSEHOVER enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_UNDO">
+	<summary>
+ Specified WM_UNDO enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_RENDERFORMAT">
+	<summary>
+ Specified WM_RENDERFORMAT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_RENDERALLFORMATS">
+	<summary>
+ Specified WM_RENDERALLFORMATS enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_DESTROYCLIPBOARD">
+	<summary>
+ Specified WM_DESTROYCLIPBOARD enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_DRAWCLIPBOARD">
+	<summary>
+ Specified WM_DRAWCLIPBOARD enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_PAINTCLIPBOARD">
+	<summary>
+ Specified WM_PAINTCLIPBOARD enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_VSCROLLCLIPBOARD">
+	<summary>
+ Specified WM_VSCROLLCLIPBOARD enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_SIZECLIPBOARD">
+	<summary>
+ Specified WM_SIZECLIPBOARD enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_ASKCBFORMATNAME">
+	<summary>
+ Specified WM_ASKCBFORMATNAME enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_CHANGECBCHAIN">
+	<summary>
+ Specified WM_CHANGECBCHAIN enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_HSCROLLCLIPBOARD">
+	<summary>
+ Specified WM_HSCROLLCLIPBOARD enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_QUERYNEWPALETTE">
+	<summary>
+ Specified WM_QUERYNEWPALETTE enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_PALETTEISCHANGING">
+	<summary>
+ Specified WM_PALETTEISCHANGING enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_PALETTECHANGED">
+	<summary>
+ Specified WM_PALETTECHANGED enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_HOTKEY">
+	<summary>
+ Specified WM_HOTKEY enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_PRINT">
+	<summary>
+ Specified WM_PRINT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_PRINTCLIENT">
+	<summary>
+ Specified WM_PRINTCLIENT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_HANDHELDFIRST">
+	<summary>
+ Specified WM_HANDHELDFIRST enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_HANDHELDLAST">
+	<summary>
+ Specified WM_HANDHELDLAST enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_AFXFIRST">
+	<summary>
+ Specified WM_AFXFIRST enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_AFXLAST">
+	<summary>
+ Specified WM_AFXLAST enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_PENWINFIRST">
+	<summary>
+ Specified WM_PENWINFIRST enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_PENWINLAST">
+	<summary>
+ Specified WM_PENWINLAST enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_APP">
+	<summary>
+ Specified WM_APP enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_USER">
+	<summary>
+ Specified WM_USER enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_REFLECT">
+	<summary>
+ Specified WM_REFLECT enumeration value.
+ </summary>
+</member><member name="F:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs.WM_THEMECHANGED">
+	<summary>
+ Specified WM_THEMECHANGED enumeration value.
+ </summary>
+</member><member name="T:ESAR_Controls.UIControls.ProgressBar.Win32.User32.Msgs">
+	<summary>
+ Specifies values from Msgs enumeration.
+ </summary>
+</member>
+</members>
+</doc>
